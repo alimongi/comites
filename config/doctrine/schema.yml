@@ -1,0 +1,310 @@
+sfGuardUser:
+  columns:
+    cedula:
+      type: integer (8)
+      unique: true
+      notnull: true
+      notblank: true
+  relations:
+    Estados:
+      class: Estado
+      local: user_id
+      foreign: estado_id
+      refClass: UserEstado
+      foreignAlias: Estados
+
+Estado:
+  actAs:
+    Timestampable: ~
+    SoftDelete: ~
+  columns:
+    id:
+      primary: true
+      type: integer(4)
+      notnull: true
+      autoincrement: true
+    nombre:
+      type: string(120)
+      notnull: true
+      notblank: true
+      minlength: 4
+  relations:
+    User:
+      class: sfGuardUser
+      local: estado_id
+      foreign: user_id
+      refClass: UserEstado
+      foreignAlias: Users
+
+UserEstado:
+  columns:
+    user_id:
+      type: integer
+      primary: true
+    estado_id:
+      type: integer(4)
+      primary: true
+
+Municipio:
+  actAs:
+    Timestampable: ~
+    SoftDelete: ~
+  columns:
+    id:
+      primary: true
+      type: integer(4)
+      notnull: true
+      autoincrement: true
+    estado_id:
+      type: integer (4)
+      notnull: true
+    nombre:
+      type: string(120)
+      notnull: true
+      notblank: true
+      minlength: 4
+  relations:
+    Estado:
+      local: estado_id
+      foreign: id
+
+Parroquia:
+  actAs:
+    Timestampable: ~
+    SoftDelete: ~
+  columns:
+    id:
+      primary: true
+      type: integer(4)
+      notnull: true
+      autoincrement: true
+    municipio_id:
+      type: integer (4)
+      notnull: true
+    nombre:
+      type: string(120)
+      notnull: true
+      notblank: true
+      minlength: 4
+  relations:
+    Municipio:
+      local: municipio_id
+      foreign: id
+
+Consejocomunal:
+  actAs:
+    Timestampable: ~
+    SoftDelete: ~
+  columns:
+    id:
+      primary: true
+      type: integer(4)
+      notnull: true
+      autoincrement: true
+    codigo:
+      type: string(30)
+      unique: true
+      notnull: true
+      notblank: true
+    nombre:
+      type: string(120)
+      notnull: true
+      notblank: true
+      minlength: 4
+    estado_id:
+      type: integer(4)
+      notnull: true
+    municipio_id:
+      type: integer(4)
+      notnull: true
+    parroquia_id:
+      type: integer(4)
+      notnull: true
+    sector:
+      type: string(80)
+      notnull: false
+      notblank: false
+      minlength: 4
+    activo:
+      type: boolean
+      default: false
+    contacto:
+      type: string(120)
+      notnull: true
+      notblank: true
+      minlength: 4
+    telefono: 
+      type: string(30)
+      notnull: true
+      notblank: true
+      minlength: 11
+  relations:
+    Estado:
+      local: estado_id
+      foreign: id
+    Municipio:
+      local: municipio_id
+      foreign: id
+    Parroquia:
+      local: parroquia_id
+      foreign: id
+
+Comite:
+  actAs:
+    Timestampable: ~
+    SoftDelete: ~
+  columns:
+    id:
+      primary: true
+      type: integer(4)
+      notnull: true
+      autoincrement: true
+    nombre:
+      type: string(120)
+      notnull: true
+      notblank: true
+      minlength: 4
+    estado_id:
+      type: integer(4)
+      notnull: true
+    municipio_id:
+      type: integer(4)
+      notnull: true
+    parroquia_id:
+      type: integer(4)
+      notnull: true
+    sector:
+      type: string(80)
+      notnull: false
+      notblank: false
+      minlength: 4
+    registrado:
+      type: boolean
+      default: false
+    consejo_id:
+      type: integer(4)
+      notnull: false
+    latitud:
+      type: long
+      notnull: false
+    longitud:
+      type: long
+      notnull: false
+  relations:
+    Estado:
+      local: estado_id
+      foreign: id
+    Municipio:
+      local: municipio_id
+      foreign: id
+    Parroquia:
+      local: parroquia_id
+      foreign: id
+    Consejocomunal:
+      local: consejo_id
+      foreign: id
+
+Adulto:
+  actAs:
+    Timestampable: ~
+    SoftDelete: ~
+  columns:
+    id:
+      primary: true
+      type: integer(4)
+      notnull: true
+      autoincrement: true
+    ci:
+      type: integer (10)
+      unique: true
+      notnull: true
+      notblank: true
+    nombre:
+      type: string(120)
+      notnull: true
+      notblank: true
+      minlength: 4
+    apellido:
+      type: string(120)
+      notnull: true
+      notblank: true
+      minlength: 4
+    fnacimiento:
+      type: date
+      notnull: true
+      notblank: true
+    sexo:
+      type: enum
+      values: [M, F]
+      notnull: true
+      notblank: true
+    estado_civ:
+      type: enum
+      values: [Solter@, Casad@, Viud@, Divorciad@, Separad@, Conviviente]
+      notnull: true
+      notblank: true
+    estado_id:
+      type: integer (4)
+      notnull: true
+    municipio_id:
+      type: integer (4)
+      notnull: true
+    parroquia_id:
+      type: integer (4)
+      notnull: true
+    direccion:
+      type: string(120)
+      notnull: true
+      notblank: true
+      minlength: 4
+    telf1:
+      type: string(120)
+      notnull: true
+      notblank: true
+      minlength: 4
+    telf2:
+      type: string(120)
+      notnull: false
+      notblank: false
+      minlength: 0
+    mail1:
+      type: string(120)
+      notnull: true
+      notblank: true
+      minlength: 4
+    familiar:
+      type: string(120)
+      notnull: true
+      notblank: true
+      minlength: 4
+    telf_fam:
+      type: string(120)
+      notnull: true
+      notblank: true
+      minlength: 4
+    fallecido:
+      type: enum
+      values: [No, Si]
+      notnull: true
+      notblank: true
+    comite_id:
+      type: integer (4)
+      notnull: true
+    vocero:
+      type: enum
+      values: [No, Si]
+      notnull: true
+      notblank: true
+  relations:
+    Estado:
+      local: estado_id
+      foreign: id
+    Municipio:
+      local: municipio_id
+      foreign: id
+    Parroquia:
+      local: parroquia_id
+      foreign: id
+    Comite:
+      local: comite_id
+      foreign: id

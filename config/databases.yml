@@ -1,0 +1,7 @@
+all:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: 'mysql:host=localhost;dbname=inasscomite;unix_socket=/var/run/mysqld/mysqld.sock'
+      username: inasscomite
+      password: '1Nn@s5C0wi7#'
