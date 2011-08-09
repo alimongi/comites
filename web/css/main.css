@@ -11,6 +11,13 @@ background: linear-gradient(top, rgba(183,223,45,0.12) 0%,rgba(227,245,171,0.29)
     text-align: center;
 }
 
+#mensaje {
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    color: #BD2031;
+}
+
 #map {
     float: right;
     margin-top: 90px;
@@ -93,17 +100,17 @@ background: linear-gradient(top, rgba(233,246,253,1) 1%,rgba(231,245,253,1) 11%,
 #footer {
     background-color: #F3F7F8;
     height: 2em;
-    clear: left;
+    clear: both;
     border: 1px solid #CCCCCC;
-    margin: 0 300px 8px 300px;
+    margin: 0px 150px 0px 150px;
     text-align: center;
     font-size: 8pt;
     padding-top: 4px;
-/*    border:none 0px #000000;*/
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
     border-radius: 6px;
 }
+
 #boton_link {padding: .4em 1em .4em 20px;text-decoration: none;position: relative;}
 #boton_link span.ui-icon {margin: 0 5px 0 0;position: absolute;left: .2em;top: 50%;margin-top: -8px;}
 a.link-blanco { color: #FFFFFF; text-decoration: none; font-size: 8pt; font-family: verdana;}
@@ -230,3 +237,88 @@ background: linear-gradient(top, rgba(226,226,226,0.51) 0%,rgba(209,209,209,0.55
         height: 100px;
 }
 
+.onlycssmenu-paging, .onlycssmenu-paging a, .onlycssmenu-paging span {
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+}
+.onlycssmenu-paging {
+height:20px;
+line-height:20px;
+margin:0;
+padding:0;
+}
+.onlycssmenu-paging a, .onlycssmenu-paging span {
+background:#dfe5e6;
+float:left;
+padding:0 5px;
+margin:0 1px;
+border:solid 1px #a5aeb6;
+color:#51626f;
+text-decoration:none;
+}
+.onlycssmenu-paging span {
+background:#FFFFFF;
+color:#51626f;
+border-color:#8996a0;
+}
+.onlycssmenu-paging a:hover, .onlycssmenu-paging .active {
+background:#FFFFFF;
+color:#626262;
+border-color:#8996a0;
+}
+
+/*
+	Cusco Sky table styles
+	written by Braulio Soncco http://www.buayacorp.com
+*/
+
+table, th, td {
+	border: 1px solid #D4E0EE;
+	border-collapse: collapse;
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	color: #555;
+}
+
+caption {
+	font-size: 150%;
+	font-weight: bold;
+	margin: 5px;
+}
+
+td, th {
+	padding: 4px;
+}
+
+thead th {
+	text-align: center;
+	background: #E6EDF5;
+	color: #4F76A3;
+	font-size: 100% !important;
+}
+
+tbody th {
+	font-weight: bold;
+}
+
+tbody tr { background: #FCFDFE; }
+
+tbody tr.odd { background: #F7F9FC; }
+
+table a:link {
+	color: #718ABE;
+	text-decoration: none;
+}
+
+table a:visited {
+	color: #718ABE;
+	text-decoration: none;
+}
+
+table a:hover {
+	color: #718ABE;
+	text-decoration: underline !important;
+}
+
+tfoot th, tfoot td {
+	font-size: 85%;
+}

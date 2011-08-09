@@ -7,20 +7,20 @@
 <input type="hidden" name="sf_method" value="put" />
 <?php endif; ?>
   <table>
+    <tbody>
+      <?php echo $form ?>
+    </tbody>
+  </table>
     <tfoot>
       <tr>
         <td colspan="2">
-          &nbsp;<a href="<?php echo url_for('consejocomunales/index') ?>">Back to list</a>
+          &nbsp;<a href="<?php echo url_for('consejocomunales/index') ?>">Regresar a a Lista</a>
           <?php if (!$form->getObject()->isNew()): ?>
-            &nbsp;<?php echo link_to('Delete', 'consejocomunales/delete?id='.$form->getObject()->getId().'&codigo='.$form->getObject()->getCodigo(), array('method' => 'delete', 'confirm' => 'Are you sure?')) ?>
+            &nbsp;<?php echo link_to('Borrar', 'consejocomunales/delete?id='.$form->getObject()->getId().'&codigo='.$form->getObject()->getCodigo(), array('method' => 'delete', 'confirm' => 'Esta Seguro de querer Eliminar?')) ?>
           <?php endif; ?>
           <input type="submit" value="Save" />
         </td>
       </tr>
     </tfoot>
-    <tbody>
-      <?php echo $form ?>
-    </tbody>
-  </table>
 </form>
 </div>

@@ -79,7 +79,7 @@ class comitesActions extends sfActions
     {
       $comite = $form->save();
 
-      $this->redirect('comites/edit?id='.$comite->getId());
+      $this->redirect('comites/show?id='.$comite->getId());
     }
   }
 

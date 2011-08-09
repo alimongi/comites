@@ -1,5 +1,7 @@
 <div id="content">
-<h1>Comites List</h1>
+<h1>Listado de Comités</h1>
+
+<h2><caption><?php echo $resultados ?> Comités en <?php echo $paginas ?> p&aacute;gina(s)</caption></h2>
 
 <table>
   <thead>
@@ -12,30 +14,31 @@
       <th>Sector</th>
       <th>Registrado</th>
       <th>Consejo</th>
-      <th>Created at</th>
-      <th>Updated at</th>
-      <th>Deleted at</th>
+      <th>Creado</th>
     </tr>
   </thead>
+
   <tbody>
     <?php foreach ($comites as $comite): ?>
     <tr>
       <td><a href="<?php echo url_for('comites/show?id='.$comite->getId()) ?>"><?php echo $comite->getId() ?></a></td>
       <td><?php echo $comite->getNombre() ?></td>
-      <td><?php echo $comite->getEstadoId() ?></td>
-      <td><?php echo $comite->getMunicipioId() ?></td>
-      <td><?php echo $comite->getParroquiaId() ?></td>
+      <td><?php echo $comite->getEstado() ?></td>
+      <td><?php echo $comite->getMunicipio() ?></td>
+      <td><?php echo $comite->getParroquia() ?></td>
       <td><?php echo $comite->getSector() ?></td>
       <td><?php echo $comite->getRegistrado() ?></td>
-      <td><?php echo $comite->getConsejoId() ?></td>
+      <td><?php echo $comite->getConsejocomunal() ?></td>
       <td><?php echo $comite->getCreatedAt() ?></td>
-      <td><?php echo $comite->getUpdatedAt() ?></td>
-      <td><?php echo $comite->getDeletedAt() ?></td>
     </tr>
     <?php endforeach; ?>
   </tbody>
 </table>
 
+<?php if($haveToPaginate): ?>
+<div class="onlycssmenu-paging clearfix">
+<?php echo html_entity_decode($menu) ?>
+</div>
+<?php endif;?>
 
-  <a href="<?php echo url_for('comites/new') ?>">New</a>
 </div>

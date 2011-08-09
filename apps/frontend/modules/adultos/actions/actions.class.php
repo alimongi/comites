@@ -79,11 +79,28 @@ class adultosActions extends sfActions
     {
       $adulto = $form->save();
 
-      $this->redirect('adultos/edit?id='.$adulto->getId());
+      $this->redirect('adultos/show?id='.$adulto->getId());
     }
   }
 
-      public function executeJsonMunicipios(sfWebRequest $request)
+  public function executeBuscarAdulto(sfWebRequest $request) {}
+
+  public function executeMostrar(sfWebRequest $request)
+    {
+        if ($request->getMethod() == 'POST' ) {
+            $this->adulto = Doctrine_Query::create()->select()->from('Adulto a')->where('a.ci = ?', $request->getParameter('ci_adulto'))->fetchOne();
+            //$this->adulto = Doctrine::getTable('Adulto')->findBy('ci',$request->getParameter('ci_adulto')); esto sirve para recoger los datos dentro de un arreglo
+            if(!$this->adulto){
+                $this->getUser()->setFlash('notice', 'El registro para la Cédula '.$request->getParameter('ci_adulto').' no existe.');
+                $this->redirect('adultos/BuscarAdulto');
+            }
+            //$this->adulto = $this->adulto[0]; con esto selecciono el primer registro del arreglo anterior
+            $this->setTemplate('show');
+        }
+    }
+
+
+    public function executeJsonMunicipios(sfWebRequest $request)
   {
       $response = $this->getResponse();
       $response->setContentType('application/json');

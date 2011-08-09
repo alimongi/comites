@@ -11,15 +11,15 @@
     </tr>
     <tr>
       <th>Estado:</th>
-      <td><?php echo $comite->getEstadoId() ?></td>
+      <td><?php echo $comite->getEstado() ?></td>
     </tr>
     <tr>
       <th>Municipio:</th>
-      <td><?php echo $comite->getMunicipioId() ?></td>
+      <td><?php echo $comite->getMunicipio() ?></td>
     </tr>
     <tr>
       <th>Parroquia:</th>
-      <td><?php echo $comite->getParroquiaId() ?></td>
+      <td><?php echo $comite->getParroquia() ?></td>
     </tr>
     <tr>
       <th>Sector:</th>
@@ -31,7 +31,7 @@
     </tr>
     <tr>
       <th>Consejo:</th>
-      <td><?php echo $comite->getConsejoId() ?></td>
+      <td><?php echo $comite->getConsejocomunal() ?></td>
     </tr>
     <tr>
       <th>Created at:</th>
@@ -50,7 +50,7 @@
 
 <hr />
 
-<a href="<?php echo url_for('comites/edit?id='.$comite->getId()) ?>">Edit</a>
+<a href="<?php echo url_for('comites/edit?id='.$comite->getId()) ?>">Editar</a>
 &nbsp;
-<a href="<?php echo url_for('comites/index') ?>">List</a>
+<a href="<?php echo url_for('comites/index') ?>">Listar</a>
 </div>

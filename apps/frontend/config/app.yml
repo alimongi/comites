@@ -34,6 +34,6 @@ all:
     ys_jquery_ui_core_js:         [ui.core.js]
     ys_jquery_ui_core_css:        [jquery-ui-1.8.custom.css]
 
-sf_guard_plugin:
-  success_signin_url:      main/index
-  success_signout_url:     main/index
+  sf_guard_plugin:
+    success_signin_url:      main/index
+    success_signout_url:     main/index

@@ -15,15 +15,15 @@
     </tr>
     <tr>
       <th>Estado:</th>
-      <td><?php echo $consejocomunal->getEstadoId() ?></td>
+      <td><?php echo $consejocomunal->getEstado() ?></td>
     </tr>
     <tr>
       <th>Municipio:</th>
-      <td><?php echo $consejocomunal->getMunicipioId() ?></td>
+      <td><?php echo $consejocomunal->getMunicipio() ?></td>
     </tr>
     <tr>
       <th>Parroquia:</th>
-      <td><?php echo $consejocomunal->getParroquiaId() ?></td>
+      <td><?php echo $consejocomunal->getParroquia() ?></td>
     </tr>
     <tr>
       <th>Sector:</th>
@@ -58,7 +58,7 @@
 
 <hr />
 
-<a href="<?php echo url_for('consejocomunales/edit?id='.$consejocomunal->getId().'&codigo='.$consejocomunal->getCodigo()) ?>">Edit</a>
+<a href="<?php echo url_for('consejocomunales/edit?id='.$consejocomunal->getId().'&codigo='.$consejocomunal->getCodigo()) ?>">Editar</a>
 &nbsp;
-<a href="<?php echo url_for('consejocomunales/index') ?>">List</a>
+<a href="<?php echo url_for('consejocomunales/index') ?>">Listar</a>
 </div>

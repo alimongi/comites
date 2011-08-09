@@ -7,20 +7,20 @@
 <input type="hidden" name="sf_method" value="put" />
 <?php endif; ?>
   <table>
-    <tfoot>
+        <tbody>
+      <?php echo $form ?>
+    </tbody>
+  </table>
+<tfoot>
       <tr>
         <td colspan="2">
-          &nbsp;<a href="<?php echo url_for('comites/index') ?>">Back to list</a>
+          &nbsp;<a href="<?php echo url_for('comites/index') ?>">Regresar a la Lista</a>
           <?php if (!$form->getObject()->isNew()): ?>
-            &nbsp;<?php echo link_to('Delete', 'comites/delete?id='.$form->getObject()->getId(), array('method' => 'delete', 'confirm' => 'Are you sure?')) ?>
+            &nbsp;<?php echo link_to('Borrar', 'comites/delete?id='.$form->getObject()->getId(), array('method' => 'delete', 'confirm' => 'Are you sure?')) ?>
           <?php endif; ?>
           <input type="submit" value="Save" />
         </td>
       </tr>
-    </tfoot>
-    <tbody>
-      <?php echo $form ?>
-    </tbody>
-  </table>
+</tfoot>
 </form>
 </div>

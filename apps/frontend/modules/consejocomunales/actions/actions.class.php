@@ -79,7 +79,7 @@ class consejocomunalesActions extends sfActions
     {
       $consejocomunal = $form->save();
 
-      $this->redirect('consejocomunales/edit?id='.$consejocomunal->getId());
+      $this->redirect('consejocomunales/show?id='.$consejocomunal->getId());
     }
   }
 

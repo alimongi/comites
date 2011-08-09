@@ -1,5 +1,7 @@
 <div id="content">
-<h1>Consejocomunals List</h1>
+<h1>Listado de Consejos Comunales</h1>
+
+<h2><caption><?php echo $resultados ?> Consejos Comunales en <?php echo $paginas ?> p&aacute;gina(s)</caption></h2>
 
 <table>
   <thead>
@@ -14,31 +16,33 @@
       <th>Activo</th>
       <th>Contacto</th>
       <th>Telefono</th>
-      <th>Created at</th>
-      <th>Updated at</th>
-      <th>Deleted at</th>
+      <th>Creado</th>
     </tr>
   </thead>
+
   <tbody>
     <?php foreach ($consejocomunals as $consejocomunal): ?>
     <tr>
       <td><a href="<?php echo url_for('consejocomunales/show?id='.$consejocomunal->getId()) ?>"><?php echo $consejocomunal->getId() ?></a></td>
       <td><?php echo $consejocomunal->getCodigo() ?></td>
       <td><?php echo $consejocomunal->getNombre() ?></td>
-      <td><?php echo $consejocomunal->getEstadoId() ?></td>
-      <td><?php echo $consejocomunal->getMunicipioId() ?></td>
-      <td><?php echo $consejocomunal->getParroquiaId() ?></td>
+      <td><?php echo $consejocomunal->getEstado() ?></td>
+      <td><?php echo $consejocomunal->getMunicipio() ?></td>
+      <td><?php echo $consejocomunal->getParroquia() ?></td>
       <td><?php echo $consejocomunal->getSector() ?></td>
       <td><?php echo $consejocomunal->getActivo() ?></td>
       <td><?php echo $consejocomunal->getContacto() ?></td>
       <td><?php echo $consejocomunal->getTelefono() ?></td>
       <td><?php echo $consejocomunal->getCreatedAt() ?></td>
-      <td><?php echo $consejocomunal->getUpdatedAt() ?></td>
-      <td><?php echo $consejocomunal->getDeletedAt() ?></td>
     </tr>
     <?php endforeach; ?>
   </tbody>
 </table>
 
-  <a href="<?php echo url_for('consejocomunales/new') ?>">New</a>
+<?php if($haveToPaginate): ?>
+<div class="onlycssmenu-paging clearfix">
+<?php echo html_entity_decode($menu) ?>
+</div>
+<?php endif;?>
+
 </div>

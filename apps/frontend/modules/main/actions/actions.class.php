@@ -19,4 +19,12 @@ class mainActions extends sfActions
   {
       $ids = $this->getUser()->getIdsEstados($this->getUser()->getGuardUser()->getEstados());
   }
+
+  public function executeChangePasswd(sfWebRequest $request) {
+        if ($request->getMethod() == 'POST' ) {
+            $response = $this->getUser()->cambiarPassword($this->getUser()->getGuardUser(), $request->getParameter('current_pass'), $request->getParameter('new_pass'), $request->getParameter('confirm'));
+            $this->getUser()->setFlash('notice', $response);
+        }
+    }
+    
 }

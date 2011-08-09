@@ -15,6 +15,14 @@ class AdultoForm extends BaseAdultoForm
    */
   public function configure()
   {
+
+  $today = array(
+   'year' => date('Y'),
+   'month' => date('n'),
+   'day' => date('j')
+   );
+   $years = range(date('Y') + 5, date('Y') - 110);
+   $this->widgetSchema['fnacimiento'] = new sfWidgetFormDate(array('format' => '%day%/%month%/%year%', 'default' => $today, 'years' => array_combine($years, $years)));
     unset($this['created_at'], $this['updated_at'], $this['deleted_at']);
     parent::configure();
     sfContext::getInstance()->getConfiguration()->loadHelpers('Url');

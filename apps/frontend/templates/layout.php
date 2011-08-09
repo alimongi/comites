@@ -24,7 +24,7 @@
                 <div>
                     <ul>
                     <li><a href="<?php echo url_for('homepage')?>">Pagina Principal</a></li>
-                    <li><a href="#">Cambiar Password</a></li>
+                    <li><a href="<?php echo url_for('main/ChangePasswd')?>">Cambiar Password</a></li>
                     <li><a href="<?php echo url_for('@sf_guard_signout')?>">Salir</a></li>
                     </ul>
                 </div>
@@ -55,6 +55,7 @@
                      <ul>
                     <li><a href="<?php echo url_for('adultos/new')?>">Agregar</a></li>
                     <li><a href="<?php echo url_for('adultos/index')?>">Ver</a></li>
+                    <li><a href="<?php echo url_for('adultos/BuscarAdulto')?>">Buscar</a></li>
                     <li><a href="<?php echo url_for('adultos/ResIndex')?>">Estadística</a></li>
                     </ul>
                 </div>
@@ -62,12 +63,14 @@
  </div>
  </div>
 
+ 
 
     <?php echo $sf_content ?>
-   
+     </div>
 
   <div id="footer">Todos los derechos reservados. &copy; 2011 INASS</div>
 
   </body>
+    
 </html>
 

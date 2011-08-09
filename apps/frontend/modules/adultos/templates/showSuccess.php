@@ -31,15 +31,15 @@
     </tr>
     <tr>
       <th>Estado:</th>
-      <td><?php echo $adulto->getEstadoId() ?></td>
+      <td><?php echo $adulto->getEstado() ?></td>
     </tr>
     <tr>
       <th>Municipio:</th>
-      <td><?php echo $adulto->getMunicipioId() ?></td>
+      <td><?php echo $adulto->getMunicipio() ?></td>
     </tr>
     <tr>
       <th>Parroquia:</th>
-      <td><?php echo $adulto->getParroquiaId() ?></td>
+      <td><?php echo $adulto->getParroquia() ?></td>
     </tr>
     <tr>
       <th>Direccion:</th>
@@ -71,7 +71,7 @@
     </tr>
     <tr>
       <th>Comite:</th>
-      <td><?php echo $adulto->getComiteId() ?></td>
+      <td><?php echo $adulto->getComite() ?></td>
     </tr>
     <tr>
       <th>Vocero:</th>
@@ -94,7 +94,7 @@
 
 <hr />
 
-<a href="<?php echo url_for('adultos/edit?id='.$adulto->getId()) ?>">Edit</a>
+<a href="<?php echo url_for('adultos/edit?id='.$adulto->getId()) ?>">Editar</a>
 &nbsp;
-<a href="<?php echo url_for('adultos/index') ?>">List</a>
+<a href="<?php echo url_for('adultos/index') ?>">Listar</a>
 </div>
