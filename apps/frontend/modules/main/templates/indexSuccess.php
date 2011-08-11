@@ -4,13 +4,21 @@
       <?php $totalcomite = 0 ?>
       <?php $totalmeta = 0 ?>
       <?php $cumplimientometa = 0 ?>
+      <?php $mayormeta = 0 ?>
+      <?php $mayorcomite = 0 ?>
 
       <?php foreach ($comites as $comite): ?>
       <?php $totalcomite = $totalcomite + $comite['total'] ?>
+      <?php if ($comite['total'] > $mayorcomite): ?>
+      <?php $mayorcomite = $comite['total'] ?>
+      <?php endif; ?>
       <?php endforeach; ?>
 
       <?php foreach ($metas as $meta): ?>
       <?php $totalmeta = $totalmeta + $meta->getCantidad() ?>
+      <?php if ($meta->getCantidad() > $mayormeta): ?>
+      <?php $mayormeta = $meta->getCantidad() ?>
+      <?php endif; ?>    
       <?php endforeach; ?>
 
      <?php $cumplimientometa = (100 * $totalcomite) / $totalmeta ?>
@@ -54,8 +62,8 @@ $(document).ready(function() {
                return (Math.abs(this.value) / 1);
             }
          },
-         min: -2000,
-         max: 2000
+         min: -<?php echo $mayorcomite?>,
+         max: <?php echo $mayormeta?>
       },
 
       plotOptions: {
