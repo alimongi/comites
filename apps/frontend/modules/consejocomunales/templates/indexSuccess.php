@@ -30,7 +30,12 @@
       <td><?php echo $consejocomunal->getMunicipio() ?></td>
       <td><?php echo $consejocomunal->getParroquia() ?></td>
       <td><?php echo $consejocomunal->getSector() ?></td>
-      <td><?php echo $consejocomunal->getActivo() ?></td>
+      <?php if($consejocomunal->getActivo() == "1"): ?>
+      <?php $registrocon = "Si" ?>
+      <?php else: ?>
+      <?php $registrocon = "No" ?>
+      <?php endif; ?>
+      <td><?php echo $registrocon ?></td>
       <td><?php echo $consejocomunal->getContacto() ?></td>
       <td><?php echo $consejocomunal->getTelefono() ?></td>
       <td><?php echo $consejocomunal->getCreatedAt() ?></td>

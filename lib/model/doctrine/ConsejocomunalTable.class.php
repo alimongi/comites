@@ -13,7 +13,7 @@ class ConsejocomunalTable extends Doctrine_Table
                         ->where('c.estado_id = ?', $id)
                         ->orderBy('c.nombre')
                         ->execute();
-        $_json[] = array('id' => 0, 'descripcion' => '***** Seleccione *****');
+        $_json[] = array('id' => 1, 'descripcion' => 'Ninguno');
         foreach ($_rs as $rs) {
             $_json[] = array('id' => $rs->getId(), 'descripcion' => $rs->getNombre());
         }
@@ -26,7 +26,10 @@ class ConsejocomunalTable extends Doctrine_Table
                 ->select()
                 ->from('Consejocomunal c')
                 ->innerJoin('c.Estado e')
+                ->innerJoin('c.Municipio m')
+                ->innerJoin('c.Parroquia p')
                 ->whereIn('c.estado_id', $ids)
+                ->andWhere('c.activo = 1')
                 ->andWhere('c.deleted_at IS NULL');
         $this->pagerLayout = new sfDoctrinePagerLayout(
                 new Doctrine_Pager($strSQL, $page, $limit),

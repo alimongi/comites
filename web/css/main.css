@@ -18,6 +18,23 @@ background: linear-gradient(top, rgba(183,223,45,0.12) 0%,rgba(227,245,171,0.29)
     color: #BD2031;
 }
 
+#container {
+    height: 550px;
+    margin-top: 1px;
+    -moz-box-shadow: 7px 6px 7px #696b6b;
+    -webkit-box-shadow: 7px 6px 7px #696b6b;
+    box-shadow: 7px 6px 7px #696b6b;
+}
+
+#container2 {
+     float: right;
+     width: 800px;
+     height: 600px;
+    -moz-box-shadow: 7px 6px 7px #696b6b;
+    -webkit-box-shadow: 7px 6px 7px #696b6b;
+    box-shadow: 7px 6px 7px #696b6b;
+}
+
 #map {
     float: right;
     margin-top: 90px;

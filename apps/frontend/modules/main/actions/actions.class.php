@@ -17,7 +17,15 @@ class mainActions extends sfActions
   */
   public function executeIndex(sfWebRequest $request)
   {
-      $ids = $this->getUser()->getIdsEstados($this->getUser()->getGuardUser()->getEstados());
+
+      $this->comites = Doctrine::getTable('Estado')->getTotalesxEstadoC();
+      
+      $this->metas = Doctrine::getTable('Meta')
+      ->createQuery('a')
+      ->where('a.id <> 25')
+      ->execute();
+//      $this->adultos = Doctrine::getTable('Estado')->getTotalesxEstadoA();
+
   }
 
   public function executeChangePasswd(sfWebRequest $request) {

@@ -20,6 +20,11 @@ class comitesActions extends sfActions
     $this->paginas = Doctrine::getTable('Comite')->getTotalPages();
     $this->menu = Doctrine::getTable('Comite')->getDisplay(array(), true);
   }
+  
+  public function executeComiteIndex(sfWebRequest $request)
+  {
+      $this->comites = Doctrine::getTable('Estado')->getTotalesxEstadoC();
+  }
 
   public function executeShow(sfWebRequest $request)
   {

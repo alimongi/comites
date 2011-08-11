@@ -27,6 +27,9 @@ class ComiteTable extends Doctrine_Table
                 ->select()
                 ->from('Comite c')
                 ->innerJoin('c.Estado e')
+                ->innerJoin('c.Municipio m')
+                ->innerJoin('c.Parroquia p')
+                ->innerJoin('c.Consejocomunal co')
                 ->whereIn('c.estado_id', $ids)
                 ->andWhere('c.deleted_at IS NULL');
         $this->pagerLayout = new sfDoctrinePagerLayout(
@@ -57,6 +60,5 @@ class ComiteTable extends Doctrine_Table
     public function haveToPaginate() {
         return $this->pager->haveToPaginate();
     }
-
 
 }

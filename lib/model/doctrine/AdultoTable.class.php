@@ -15,7 +15,11 @@ class AdultoTable extends Doctrine_Table
                 ->select()
                 ->from('Adulto a')
                 ->innerJoin('a.Estado e')
+                ->innerJoin('a.Municipio m')
+                ->innerJoin('a.Parroquia p')
+                ->innerJoin('a.Comite co')
                 ->whereIn('a.estado_id', $ids)
+                ->andWhere('a.fallecido = "No"')
                 ->andWhere('a.deleted_at IS NULL');
         $this->pagerLayout = new sfDoctrinePagerLayout(
                 new Doctrine_Pager($strSQL, $page, $limit),

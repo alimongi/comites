@@ -25,9 +25,14 @@
       <th>Sector:</th>
       <td><?php echo $comite->getSector() ?></td>
     </tr>
+    <?php if($comite->getRegistrado() == "1"): ?>
+    <?php $registrocom = "Si" ?>
+    <?php else: ?>
+    <?php $registrocom = "No" ?>
+    <?php endif; ?>
     <tr>
       <th>Registrado:</th>
-      <td><?php echo $comite->getRegistrado() ?></td>
+      <td><?php echo $registrocom ?></td>
     </tr>
     <tr>
       <th>Consejo:</th>

@@ -27,7 +27,12 @@
       <td><?php echo $comite->getMunicipio() ?></td>
       <td><?php echo $comite->getParroquia() ?></td>
       <td><?php echo $comite->getSector() ?></td>
-      <td><?php echo $comite->getRegistrado() ?></td>
+    <?php if($comite->getRegistrado() == "1"): ?>
+    <?php $registrocom = "Si" ?>
+    <?php else: ?>
+    <?php $registrocom = "No" ?>
+    <?php endif; ?>
+      <td><?php echo $registrocom ?></td>
       <td><?php echo $comite->getConsejocomunal() ?></td>
       <td><?php echo $comite->getCreatedAt() ?></td>
     </tr>

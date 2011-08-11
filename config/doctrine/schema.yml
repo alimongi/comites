@@ -184,6 +184,8 @@ Comite:
     consejo_id:
       type: integer(4)
       notnull: false
+      notblank: false
+      default: 0
     latitud:
       type: long
       notnull: false
@@ -307,4 +309,29 @@ Adulto:
       foreign: id
     Comite:
       local: comite_id
+      foreign: id
+
+Meta:
+  actAs:
+    Timestampable: ~
+    SoftDelete: ~
+  columns:
+    id:
+      primary: true
+      type: integer(4)
+      notnull: true
+      autoincrement: true
+    estado_id:
+      type: integer(4)
+      notnull: true
+      notblank: true
+      unique: true
+    cantidad:
+      type: integer (10)
+      unique: true
+      notnull: true
+      notblank: true
+  relations:
+    Estado:
+      local: estado_id
       foreign: id

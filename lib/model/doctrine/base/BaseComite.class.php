@@ -104,6 +104,8 @@ abstract class BaseComite extends sfDoctrineRecord
         $this->hasColumn('consejo_id', 'integer', 4, array(
              'type' => 'integer',
              'notnull' => false,
+             'notblank' => false,
+             'default' => 0,
              'length' => 4,
              ));
         $this->hasColumn('latitud', 'long', null, array(

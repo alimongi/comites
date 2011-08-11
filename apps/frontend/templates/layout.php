@@ -30,33 +30,40 @@
                 </div>
         </section>
         <section id="two">
-                <h2><a href="#two">Consejos Comunales</a></h2>
+                <h2><a href="#two">Metas</a></h2>
                 <div>
                     <ul>
-                    <li><a href="<?php echo url_for('consejocomunales/new')?>">Agregar</a></li>
-                    <li><a href="<?php echo url_for('consejocomunales/index')?>">Ver</a></li>
-                    <li><a href="<?php echo url_for('consejocomunales/ResIndex')?>">Estadística</a></li>
+                     <li><a href="<?php echo url_for('metas/index')?>">Ver</a></li>
                     </ul>
                 </div>
         </section>
         <section id="three">
-                <h2><a href="#three">Comités</a></h2>
+                <h2><a href="#three">Consejos Comunales</a></h2>
                 <div>
-                     <ul>
-                    <li><a href="<?php echo url_for('comites/new')?>">Agregar</a></li>
-                    <li><a href="<?php echo url_for('comites/index')?>">Ver</a></li>
-                    <li><a href="<?php echo url_for('comites/ResIndex')?>">Estadística</a></li>
+                    <ul>
+                    <li><a href="<?php echo url_for('consejocomunales/new')?>">Agregar</a></li>
+                    <li><a href="<?php echo url_for('consejocomunales/index')?>">Ver</a></li>
                     </ul>
                 </div>
         </section>
         <section id="four">
-                <h2><a href="#four">Adult@s Mayores</a></h2>
+                <h2><a href="#four">Comités</a></h2>
+                <div>
+                     <ul>
+                    <li><a href="<?php echo url_for('comites/new')?>">Agregar</a></li>
+                    <li><a href="<?php echo url_for('comites/index')?>">Ver</a></li>
+                    <li><a href="<?php echo url_for('comites/ComiteIndex')?>">Estadística Comité Por Estados</a></li>
+                    </ul>
+                </div>
+        </section>
+        <section id="five">
+                <h2><a href="#five">Adult@s Mayores</a></h2>
                 <div>
                      <ul>
                     <li><a href="<?php echo url_for('adultos/new')?>">Agregar</a></li>
                     <li><a href="<?php echo url_for('adultos/index')?>">Ver</a></li>
                     <li><a href="<?php echo url_for('adultos/BuscarAdulto')?>">Buscar</a></li>
-                    <li><a href="<?php echo url_for('adultos/ResIndex')?>">Estadística</a></li>
+                    <li><a href="<?php echo url_for('adultos/AdultoIndex')?>">Estadística Adult@s Por Estados</a></li>
                     </ul>
                 </div>
         </section>

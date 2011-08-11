@@ -29,9 +29,14 @@
       <th>Sector:</th>
       <td><?php echo $consejocomunal->getSector() ?></td>
     </tr>
+      <?php if($consejocomunal->getActivo() == "1"): ?>
+      <?php $registrocon = "Si" ?>
+      <?php else: ?>
+      <?php $registrocon = "No" ?>
+      <?php endif; ?>
     <tr>
       <th>Activo:</th>
-      <td><?php echo $consejocomunal->getActivo() ?></td>
+      <td><?php echo $registrocon ?></td>
     </tr>
     <tr>
       <th>Contacto:</th>

@@ -119,17 +119,22 @@ Estado:
     created_at: '2011-03-31 18:36:12'
     updated_at: '2011-03-31 18:36:12'
     deleted_at: null
+  Estado_25:
+    nombre: Ninguno
+    created_at: '2011-03-31 18:36:12'
+    updated_at: '0000-00-00 00:00:00'
+    deleted_at: null
 Consejocomunal:
   Consejocomunal_1:
-    codigo: edfwf65546frfrw
-    nombre: Prueba1
-    Estado: Estado_5
-    Municipio: Municipio_43
-    Parroquia: Parroquia_148
-    sector: Libertad
-    activo: true
-    contacto: 'Pedro Perez'
-    telefono: '04126666667'
+    codigo: '0'
+    nombre: Ninguno
+    Estado: Estado_25
+    Municipio: Municipio_336
+    Parroquia: Parroquia_1133
+    sector: Ninguno
+    activo: false
+    contacto: Ninguno
+    telefono: '000000000000'
     created_at: '2011-08-01 16:17:54'
     updated_at: '2011-08-02 11:55:53'
     deleted_at: null
@@ -145,6 +150,1283 @@ Consejocomunal:
     telefono: '6546879725525'
     created_at: '2011-08-02 09:47:27'
     updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+Adulto:
+  Adulto_1:
+    ci: '12501993'
+    nombre: alexis
+    apellido: Limongi
+    fnacimiento: '1976-05-01'
+    sexo: M
+    estado_civ: Casad@
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_19
+    direccion: Nada
+    telf1: '2125555554'
+    telf2: '2125555556'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: No
+    Comite: Comite_11
+    vocero: Si
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_2:
+    ci: '12501994'
+    nombre: 'edgardo '
+    apellido: 'Germano '
+    fnacimiento: '1976-05-02'
+    sexo: M
+    estado_civ: Casad@
+    Estado: Estado_3
+    Municipio: Municipio_10
+    Parroquia: Parroquia_49
+    direccion: Nada
+    telf1: '2125555555'
+    telf2: '2125555557'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: No
+    Comite: Comite_16
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_3:
+    ci: '12501995'
+    nombre: 'edith '
+    apellido: 'Germano '
+    fnacimiento: '1976-05-03'
+    sexo: F
+    estado_civ: Casad@
+    Estado: Estado_5
+    Municipio: Municipio_38
+    Parroquia: Parroquia_130
+    direccion: Nada
+    telf1: '2125555556'
+    telf2: '2125555558'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: No
+    Comite: Comite_2
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_4:
+    ci: '12501996'
+    nombre: 'edmundo '
+    apellido: 'Germano '
+    fnacimiento: '1976-05-04'
+    sexo: M
+    estado_civ: Casad@
+    Estado: Estado_2
+    Municipio: Municipio_2
+    Parroquia: Parroquia_23
+    direccion: Nada
+    telf1: '2125555557'
+    telf2: '2125555559'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: No
+    Comite: Comite_3
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_5:
+    ci: '12501997'
+    nombre: 'eduardo '
+    apellido: 'Germano '
+    fnacimiento: '1976-05-05'
+    sexo: M
+    estado_civ: Casad@
+    Estado: Estado_6
+    Municipio: Municipio_55
+    Parroquia: Parroquia_180
+    direccion: Nada
+    telf1: '2125555558'
+    telf2: '2125555560'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: No
+    Comite: Comite_4
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_6:
+    ci: '12501998'
+    nombre: 'efra?n '
+    apellido: 'Hebreo '
+    fnacimiento: '1976-05-06'
+    sexo: M
+    estado_civ: Casad@
+    Estado: Estado_4
+    Municipio: Municipio_30
+    Parroquia: Parroquia_105
+    direccion: Nada
+    telf1: '2125555559'
+    telf2: '2125555561'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: No
+    Comite: Comite_18
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_7:
+    ci: '12501999'
+    nombre: 'efr?n '
+    apellido: 'Hebreo '
+    fnacimiento: '1976-05-07'
+    sexo: M
+    estado_civ: Casad@
+    Estado: Estado_7
+    Municipio: Municipio_68
+    Parroquia: Parroquia_242
+    direccion: Nada
+    telf1: '2125555560'
+    telf2: '2125555562'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: No
+    Comite: Comite_6
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_8:
+    ci: '12502000'
+    nombre: elena
+    apellido: 'Griego '
+    fnacimiento: '1976-05-08'
+    sexo: F
+    estado_civ: Casad@
+    Estado: Estado_9
+    Municipio: Municipio_92
+    Parroquia: Parroquia_315
+    direccion: Nada
+    telf1: '2125555561'
+    telf2: '2125555563'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: No
+    Comite: Comite_7
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_9:
+    ci: '12502001'
+    nombre: 'el?as '
+    apellido: 'Hebreo '
+    fnacimiento: '1976-05-09'
+    sexo: M
+    estado_civ: Casad@
+    Estado: Estado_10
+    Municipio: Municipio_101
+    Parroquia: Parroquia_331
+    direccion: Nada
+    telf1: '2125555562'
+    telf2: '2125555564'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: No
+    Comite: Comite_8
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_10:
+    ci: '12502002'
+    nombre: 'elisa '
+    apellido: 'Hebreo '
+    fnacimiento: '1976-05-10'
+    sexo: F
+    estado_civ: Casad@
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_1
+    direccion: Nada
+    telf1: '2125555563'
+    telf2: '2125555565'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: No
+    Comite: Comite_9
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_11:
+    ci: '12502003'
+    nombre: 'elisabeth '
+    apellido: 'Hebreo '
+    fnacimiento: '1976-05-11'
+    sexo: F
+    estado_civ: Casad@
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_2
+    direccion: Nada
+    telf1: '2125555564'
+    telf2: '2125555566'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: No
+    Comite: Comite_10
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_12:
+    ci: '12502004'
+    nombre: 'eloisa '
+    apellido: 'Germano '
+    fnacimiento: '1976-05-12'
+    sexo: F
+    estado_civ: Casad@
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_3
+    direccion: Nada
+    telf1: '2125555565'
+    telf2: '2125555567'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: No
+    Comite: Comite_11
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_13:
+    ci: '12502005'
+    nombre: 'eloy '
+    apellido: 'Franc?s '
+    fnacimiento: '1976-05-13'
+    sexo: M
+    estado_civ: Casad@
+    Estado: Estado_2
+    Municipio: Municipio_2
+    Parroquia: Parroquia_23
+    direccion: Nada
+    telf1: '2125555566'
+    telf2: '2125555568'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: No
+    Comite: Comite_3
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_14:
+    ci: '12502006'
+    nombre: 'elsa '
+    apellido: 'Germano '
+    fnacimiento: '1976-05-14'
+    sexo: F
+    estado_civ: Casad@
+    Estado: Estado_2
+    Municipio: Municipio_3
+    Parroquia: Parroquia_29
+    direccion: Nada
+    telf1: '2125555567'
+    telf2: '2125555569'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: No
+    Comite: Comite_12
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_15:
+    ci: '12502007'
+    nombre: 'elvira '
+    apellido: 'Latino '
+    fnacimiento: '1976-05-15'
+    sexo: F
+    estado_civ: Casad@
+    Estado: Estado_3
+    Municipio: Municipio_9
+    Parroquia: Parroquia_47
+    direccion: Nada
+    telf1: '2125555568'
+    telf2: '2125555570'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: No
+    Comite: Comite_1
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_16:
+    ci: '12502008'
+    nombre: emilia
+    apellido: 'Griego '
+    fnacimiento: '1976-05-16'
+    sexo: F
+    estado_civ: Solter@
+    Estado: Estado_3
+    Municipio: Municipio_10
+    Parroquia: Parroquia_49
+    direccion: Nada
+    telf1: '2125555569'
+    telf2: '2125555571'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: No
+    Comite: Comite_14
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_17:
+    ci: '12502009'
+    nombre: 'ema '
+    apellido: 'Griego '
+    fnacimiento: '1976-05-17'
+    sexo: F
+    estado_civ: Solter@
+    Estado: Estado_3
+    Municipio: Municipio_11
+    Parroquia: Parroquia_50
+    direccion: Nada
+    telf1: '2125555570'
+    telf2: '2125555572'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: No
+    Comite: Comite_15
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_18:
+    ci: '12502010'
+    nombre: 'emanuel '
+    apellido: 'Hebreo '
+    fnacimiento: '1976-05-18'
+    sexo: M
+    estado_civ: Solter@
+    Estado: Estado_4
+    Municipio: Municipio_32
+    Parroquia: Parroquia_112
+    direccion: Nada
+    telf1: '2125555571'
+    telf2: '2125555573'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: No
+    Comite: Comite_5
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_19:
+    ci: '12502011'
+    nombre: 'emilio '
+    apellido: 'Griego '
+    fnacimiento: '1976-05-19'
+    sexo: M
+    estado_civ: Solter@
+    Estado: Estado_4
+    Municipio: Municipio_33
+    Parroquia: Parroquia_116
+    direccion: Nada
+    telf1: '2125555572'
+    telf2: '2125555574'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: No
+    Comite: Comite_17
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_20:
+    ci: '12502012'
+    nombre: 'encarnaci?n '
+    apellido: 'Latino '
+    fnacimiento: '1976-05-20'
+    sexo: F
+    estado_civ: Solter@
+    Estado: Estado_4
+    Municipio: Municipio_34
+    Parroquia: Parroquia_120
+    direccion: Nada
+    telf1: '2125555573'
+    telf2: '2125555575'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: No
+    Comite: Comite_18
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_21:
+    ci: '12502013'
+    nombre: 'engracia '
+    apellido: 'Latino '
+    fnacimiento: '1976-05-21'
+    sexo: F
+    estado_civ: Solter@
+    Estado: Estado_5
+    Municipio: Municipio_37
+    Parroquia: Parroquia_129
+    direccion: Nada
+    telf1: '2125555574'
+    telf2: '2125555576'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: No
+    Comite: Comite_20
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_22:
+    ci: '12502014'
+    nombre: 'enrique '
+    apellido: 'Germano '
+    fnacimiento: '1976-05-22'
+    sexo: M
+    estado_civ: Solter@
+    Estado: Estado_5
+    Municipio: Municipio_38
+    Parroquia: Parroquia_130
+    direccion: Nada
+    telf1: '2125555575'
+    telf2: '2125555577'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: No
+    Comite: Comite_21
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_23:
+    ci: '12502015'
+    nombre: 'erasmo '
+    apellido: 'Griego '
+    fnacimiento: '1976-05-23'
+    sexo: M
+    estado_civ: Solter@
+    Estado: Estado_5
+    Municipio: Municipio_39
+    Parroquia: Parroquia_139
+    direccion: Nada
+    telf1: '2125555576'
+    telf2: '2125555578'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: No
+    Comite: Comite_22
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_24:
+    ci: '12502016'
+    nombre: erico
+    apellido: 'Germano '
+    fnacimiento: '1976-05-24'
+    sexo: M
+    estado_civ: Solter@
+    Estado: Estado_6
+    Municipio: Municipio_55
+    Parroquia: Parroquia_180
+    direccion: Nada
+    telf1: '2125555577'
+    telf2: '2125555579'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: No
+    Comite: Comite_23
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_25:
+    ci: '12502017'
+    nombre: 'ernesto '
+    apellido: 'Germano '
+    fnacimiento: '1976-05-25'
+    sexo: M
+    estado_civ: Solter@
+    Estado: Estado_7
+    Municipio: Municipio_67
+    Parroquia: Parroquia_232
+    direccion: Nada
+    telf1: '2125555578'
+    telf2: '2125555580'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: No
+    Comite: Comite_24
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_26:
+    ci: '12502018'
+    nombre: 'esmeralda '
+    apellido: 'Latino '
+    fnacimiento: '1976-05-26'
+    sexo: F
+    estado_civ: Solter@
+    Estado: Estado_8
+    Municipio: Municipio_78
+    Parroquia: Parroquia_277
+    direccion: Nada
+    telf1: '2125555579'
+    telf2: '2125555581'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: No
+    Comite: Comite_25
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_27:
+    ci: '12502019'
+    nombre: 'esperanza '
+    apellido: 'Latino '
+    fnacimiento: '1976-05-27'
+    sexo: F
+    estado_civ: Viud@
+    Estado: Estado_9
+    Municipio: Municipio_91
+    Parroquia: Parroquia_306
+    direccion: Nada
+    telf1: '2125555580'
+    telf2: '2125555582'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: No
+    Comite: Comite_26
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_28:
+    ci: '12502020'
+    nombre: 'esteban '
+    apellido: 'Griego '
+    fnacimiento: '1976-05-28'
+    sexo: M
+    estado_civ: Viud@
+    Estado: Estado_10
+    Municipio: Municipio_101
+    Parroquia: Parroquia_330
+    direccion: Nada
+    telf1: '2125555581'
+    telf2: '2125555583'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: No
+    Comite: Comite_28
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_29:
+    ci: '12502021'
+    nombre: 'estefan?a '
+    apellido: 'Griego '
+    fnacimiento: '1976-05-29'
+    sexo: F
+    estado_civ: Viud@
+    Estado: Estado_10
+    Municipio: Municipio_102
+    Parroquia: Parroquia_336
+    direccion: Nada
+    telf1: '2125555582'
+    telf2: '2125555584'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: No
+    Comite: Comite_30
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_30:
+    ci: '12502022'
+    nombre: 'estela '
+    apellido: 'Lat?n '
+    fnacimiento: '1976-05-30'
+    sexo: F
+    estado_civ: Viud@
+    Estado: Estado_10
+    Municipio: Municipio_103
+    Parroquia: Parroquia_341
+    direccion: Nada
+    telf1: '2125555583'
+    telf2: '2125555585'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: No
+    Comite: Comite_29
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_31:
+    ci: '12502023'
+    nombre: 'ester '
+    apellido: 'Persa '
+    fnacimiento: '1976-05-31'
+    sexo: F
+    estado_civ: Viud@
+    Estado: Estado_10
+    Municipio: Municipio_104
+    Parroquia: Parroquia_343
+    direccion: Nada
+    telf1: '2125555584'
+    telf2: '2125555586'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: No
+    Comite: Comite_27
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_32:
+    ci: '12502024'
+    nombre: 'etel '
+    apellido: 'Germano '
+    fnacimiento: '1976-05-02'
+    sexo: M
+    estado_civ: Viud@
+    Estado: Estado_11
+    Municipio: Municipio_105
+    Parroquia: Parroquia_351
+    direccion: Nada
+    telf1: '2125555585'
+    telf2: '2125555587'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: No
+    Comite: Comite_31
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_33:
+    ci: '12502025'
+    nombre: 'euclides '
+    apellido: 'Griego '
+    fnacimiento: '1976-05-03'
+    sexo: M
+    estado_civ: Viud@
+    Estado: Estado_11
+    Municipio: Municipio_106
+    Parroquia: Parroquia_356
+    direccion: Nada
+    telf1: '2125555586'
+    telf2: '2125555588'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: No
+    Comite: Comite_32
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_34:
+    ci: '12502026'
+    nombre: eudosia
+    apellido: 'Griego '
+    fnacimiento: '1976-05-04'
+    sexo: F
+    estado_civ: Viud@
+    Estado: Estado_12
+    Municipio: Municipio_130
+    Parroquia: Parroquia_434
+    direccion: Nada
+    telf1: '2125555587'
+    telf2: '2125555589'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: No
+    Comite: Comite_33
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_35:
+    ci: '12502027'
+    nombre: eufemio
+    apellido: 'Griego '
+    fnacimiento: '1976-05-05'
+    sexo: M
+    estado_civ: Viud@
+    Estado: Estado_12
+    Municipio: Municipio_131
+    Parroquia: Parroquia_437
+    direccion: Nada
+    telf1: '2125555588'
+    telf2: '2125555590'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: No
+    Comite: Comite_34
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_36:
+    ci: '12502028'
+    nombre: eufrasio
+    apellido: 'Griego '
+    fnacimiento: '1976-05-06'
+    sexo: M
+    estado_civ: Viud@
+    Estado: Estado_12
+    Municipio: Municipio_132
+    Parroquia: Parroquia_438
+    direccion: Nada
+    telf1: '2125555589'
+    telf2: '2125555591'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: Si
+    Comite: Comite_33
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_37:
+    ci: '12502029'
+    nombre: eugenio
+    apellido: 'Griego '
+    fnacimiento: '1976-05-02'
+    sexo: M
+    estado_civ: Viud@
+    Estado: Estado_13
+    Municipio: Municipio_145
+    Parroquia: Parroquia_474
+    direccion: Nada
+    telf1: '2125555590'
+    telf2: '2125555592'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: Si
+    Comite: Comite_36
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_38:
+    ci: '12502030'
+    nombre: eulalio
+    apellido: 'Griego '
+    fnacimiento: '1976-05-03'
+    sexo: M
+    estado_civ: Viud@
+    Estado: Estado_13
+    Municipio: Municipio_146
+    Parroquia: Parroquia_476
+    direccion: Nada
+    telf1: '2125555591'
+    telf2: '2125555593'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: Si
+    Comite: Comite_37
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_39:
+    ci: '12502031'
+    nombre: 'eusebio '
+    apellido: 'Griego '
+    fnacimiento: '1976-05-04'
+    sexo: M
+    estado_civ: Viud@
+    Estado: Estado_13
+    Municipio: Municipio_147
+    Parroquia: Parroquia_478
+    direccion: Nada
+    telf1: '2125555592'
+    telf2: '2125555594'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: Si
+    Comite: Comite_38
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_40:
+    ci: '12502032'
+    nombre: 'eustaquio '
+    apellido: 'Griego '
+    fnacimiento: '1976-05-05'
+    sexo: M
+    estado_civ: Viud@
+    Estado: Estado_14
+    Municipio: Municipio_154
+    Parroquia: Parroquia_531
+    direccion: Nada
+    telf1: '2125555593'
+    telf2: '2125555595'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: Si
+    Comite: Comite_39
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_41:
+    ci: '12502033'
+    nombre: 'eva '
+    apellido: 'Hebreo '
+    fnacimiento: '1976-05-06'
+    sexo: F
+    estado_civ: Viud@
+    Estado: Estado_15
+    Municipio: Municipio_177
+    Parroquia: Parroquia_620
+    direccion: Nada
+    telf1: '2125555594'
+    telf2: '2125555596'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: Si
+    Comite: Comite_40
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_42:
+    ci: '12502034'
+    nombre: 'evangelina '
+    apellido: 'Griego '
+    fnacimiento: '1976-05-02'
+    sexo: F
+    estado_civ: Viud@
+    Estado: Estado_16
+    Municipio: Municipio_198
+    Parroquia: Parroquia_672
+    direccion: Nada
+    telf1: '2125555595'
+    telf2: '2125555597'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: Si
+    Comite: Comite_41
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_43:
+    ci: '12502035'
+    nombre: 'evaristo '
+    apellido: 'Griego '
+    fnacimiento: '1976-05-03'
+    sexo: M
+    estado_civ: Viud@
+    Estado: Estado_17
+    Municipio: Municipio_211
+    Parroquia: Parroquia_716
+    direccion: Nada
+    telf1: '2125555596'
+    telf2: '2125555598'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: Si
+    Comite: Comite_42
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_44:
+    ci: '12502036'
+    nombre: 'ezequiel '
+    apellido: 'Hebreo '
+    fnacimiento: '1976-05-04'
+    sexo: M
+    estado_civ: Divorciad@
+    Estado: Estado_18
+    Municipio: Municipio_222
+    Parroquia: Parroquia_738
+    direccion: Nada
+    telf1: '2125555597'
+    telf2: '2125555599'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: Si
+    Comite: Comite_43
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_45:
+    ci: '12502037'
+    nombre: 'efra?n '
+    apellido: 'Griego '
+    fnacimiento: '1976-05-05'
+    sexo: M
+    estado_civ: Divorciad@
+    Estado: Estado_19
+    Municipio: Municipio_239
+    Parroquia: Parroquia_788
+    direccion: Nada
+    telf1: '2125555598'
+    telf2: '2125555600'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: Si
+    Comite: Comite_44
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_46:
+    ci: '12502038'
+    nombre: 'efr?n '
+    apellido: 'Griego '
+    fnacimiento: '1976-05-06'
+    sexo: M
+    estado_civ: Divorciad@
+    Estado: Estado_19
+    Municipio: Municipio_240
+    Parroquia: Parroquia_794
+    direccion: Nada
+    telf1: '2125555599'
+    telf2: '2125555601'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: Si
+    Comite: Comite_45
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_47:
+    ci: '12502039'
+    nombre: elena
+    apellido: 'Griego '
+    fnacimiento: '1976-05-16'
+    sexo: F
+    estado_civ: Divorciad@
+    Estado: Estado_20
+    Municipio: Municipio_251
+    Parroquia: Parroquia_836
+    direccion: Nada
+    telf1: '2125555600'
+    telf2: '2125555602'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: No
+    Comite: Comite_46
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_48:
+    ci: '12502040'
+    nombre: 'el?as '
+    apellido: 'Griego '
+    fnacimiento: '1976-05-17'
+    sexo: M
+    estado_civ: Divorciad@
+    Estado: Estado_20
+    Municipio: Municipio_252
+    Parroquia: Parroquia_837
+    direccion: Nada
+    telf1: '2125555601'
+    telf2: '2125555603'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: No
+    Comite: Comite_47
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_49:
+    ci: '12502041'
+    nombre: 'elisa '
+    apellido: 'Griego '
+    fnacimiento: '1976-05-18'
+    sexo: F
+    estado_civ: Divorciad@
+    Estado: Estado_20
+    Municipio: Municipio_253
+    Parroquia: Parroquia_839
+    direccion: Nada
+    telf1: '2125555602'
+    telf2: '2125555604'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: No
+    Comite: Comite_48
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_50:
+    ci: '12502042'
+    nombre: 'elisabeth '
+    apellido: 'Griego '
+    fnacimiento: '1976-05-19'
+    sexo: F
+    estado_civ: Divorciad@
+    Estado: Estado_20
+    Municipio: Municipio_254
+    Parroquia: Parroquia_841
+    direccion: Nada
+    telf1: '2125555603'
+    telf2: '2125555605'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: No
+    Comite: Comite_49
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_51:
+    ci: '12502043'
+    nombre: 'eloisa '
+    apellido: 'Griego '
+    fnacimiento: '1976-05-20'
+    sexo: F
+    estado_civ: Divorciad@
+    Estado: Estado_21
+    Municipio: Municipio_280
+    Parroquia: Parroquia_902
+    direccion: Nada
+    telf1: '2125555604'
+    telf2: '2125555606'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: No
+    Comite: Comite_50
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_52:
+    ci: '12502044'
+    nombre: 'eloy '
+    apellido: 'Hebreo '
+    fnacimiento: '1976-05-21'
+    sexo: M
+    estado_civ: Divorciad@
+    Estado: Estado_21
+    Municipio: Municipio_281
+    Parroquia: Parroquia_908
+    direccion: Nada
+    telf1: '2125555605'
+    telf2: '2125555607'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: No
+    Comite: Comite_51
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_53:
+    ci: '12502045'
+    nombre: 'elsa '
+    apellido: 'Griego '
+    fnacimiento: '1976-05-22'
+    sexo: F
+    estado_civ: Divorciad@
+    Estado: Estado_21
+    Municipio: Municipio_282
+    Parroquia: Parroquia_918
+    direccion: Nada
+    telf1: '2125555606'
+    telf2: '2125555608'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: No
+    Comite: Comite_52
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_54:
+    ci: '12502046'
+    nombre: 'elvira '
+    apellido: 'Griego '
+    fnacimiento: '1976-05-23'
+    sexo: F
+    estado_civ: Divorciad@
+    Estado: Estado_22
+    Municipio: Municipio_300
+    Parroquia: Parroquia_995
+    direccion: Nada
+    telf1: '2125555607'
+    telf2: '2125555609'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: No
+    Comite: Comite_53
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_55:
+    ci: '12502047'
+    nombre: 'edgardo '
+    apellido: 'Hebreo '
+    fnacimiento: '1976-05-24'
+    sexo: M
+    estado_civ: Divorciad@
+    Estado: Estado_22
+    Municipio: Municipio_301
+    Parroquia: Parroquia_996
+    direccion: Nada
+    telf1: '2125555608'
+    telf2: '2125555610'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: No
+    Comite: Comite_54
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_56:
+    ci: '12502048'
+    nombre: 'edith '
+    apellido: Perez
+    fnacimiento: '1976-05-25'
+    sexo: F
+    estado_civ: Divorciad@
+    Estado: Estado_23
+    Municipio: Municipio_314
+    Parroquia: Parroquia_1016
+    direccion: Nada
+    telf1: '2125555609'
+    telf2: '2125555611'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: No
+    Comite: Comite_55
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_57:
+    ci: '12502049'
+    nombre: 'edmundo '
+    apellido: Duarte
+    fnacimiento: '1976-05-26'
+    sexo: M
+    estado_civ: Divorciad@
+    Estado: Estado_24
+    Municipio: Municipio_335
+    Parroquia: Parroquia_1124
+    direccion: Nada
+    telf1: '2125555610'
+    telf2: '2125555612'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: No
+    Comite: Comite_56
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
+    deleted_at: null
+  Adulto_58:
+    ci: '12502050'
+    nombre: 'eduardo '
+    apellido: Guzman
+    fnacimiento: '1976-05-27'
+    sexo: M
+    estado_civ: Divorciad@
+    Estado: Estado_24
+    Municipio: Municipio_335
+    Parroquia: Parroquia_1125
+    direccion: Nada
+    telf1: '2125555611'
+    telf2: '2125555613'
+    mail1: alimongi@gmail.com
+    familiar: 'Ligia Limongi'
+    telf_fam: '2125555557'
+    fallecido: No
+    Comite: Comite_57
+    vocero: No
+    created_at: '2011-08-11 11:58:03'
+    updated_at: '2011-08-11 11:59:12'
     deleted_at: null
 Municipio:
   Municipio_1:
@@ -2156,6 +3438,12 @@ Municipio:
     nombre: VARGAS
     created_at: '2011-03-31 18:36:31'
     updated_at: '2011-03-31 18:36:31'
+    deleted_at: null
+  Municipio_336:
+    Estado: Estado_25
+    nombre: Ninguno
+    created_at: '2011-03-31 18:36:31'
+    updated_at: '0000-00-00 00:00:00'
     deleted_at: null
 Parroquia:
   Parroquia_1:
@@ -8950,6 +10238,12 @@ Parroquia:
     created_at: '2011-03-31 18:37:36'
     updated_at: '2011-03-31 18:37:36'
     deleted_at: null
+  Parroquia_1133:
+    Municipio: Municipio_336
+    nombre: Ninguno
+    created_at: '2011-03-31 18:37:36'
+    updated_at: '2011-03-31 18:37:36'
+    deleted_at: null
 sfGuardUser:
   sfGuardUser_1:
     first_name: Administrador
@@ -8961,10 +10255,10 @@ sfGuardUser:
     password: 123456
     is_active: true
     is_super_admin: false
-    last_login: '2011-08-08 10:36:04'
+    last_login: '2011-08-11 12:05:32'
     cedula: '1234567'
     created_at: '2011-04-28 10:44:53'
-    updated_at: '2011-08-08 10:36:04'
+    updated_at: '2011-08-11 12:05:32'
 UserEstado:
   UserEstado_1_1:
     sfGuardUser: sfGuardUser_1
@@ -9047,10 +10341,10 @@ Comite:
     sector: cachipor
     registrado: true
     Consejocomunal: Consejocomunal_2
-    latitud: null
-    longitud: null
+    latitud: ''
+    longitud: ''
     created_at: '2011-08-02 11:44:59'
-    updated_at: '2011-08-02 12:22:48'
+    updated_at: '2011-08-09 10:26:12'
     deleted_at: null
   Comite_2:
     nombre: comite2
@@ -9058,10 +10352,725 @@ Comite:
     Municipio: Municipio_38
     Parroquia: Parroquia_130
     sector: Camatagua
-    registrado: true
+    registrado: false
     Consejocomunal: Consejocomunal_1
-    latitud: null
-    longitud: null
+    latitud: ''
+    longitud: ''
     created_at: '2011-08-02 13:37:20'
-    updated_at: '2011-08-02 13:37:20'
+    updated_at: '2011-08-10 15:26:50'
+    deleted_at: null
+  Comite_3:
+    nombre: comite3
+    Estado: Estado_2
+    Municipio: Municipio_2
+    Parroquia: Parroquia_23
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 13:23:31'
+    updated_at: '2011-08-10 13:23:31'
+    deleted_at: null
+  Comite_4:
+    nombre: comite4
+    Estado: Estado_6
+    Municipio: Municipio_55
+    Parroquia: Parroquia_180
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:48:53'
+    updated_at: '2011-08-10 15:48:53'
+    deleted_at: null
+  Comite_5:
+    nombre: comite5
+    Estado: Estado_4
+    Municipio: Municipio_30
+    Parroquia: Parroquia_105
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:49:37'
+    updated_at: '2011-08-10 15:49:37'
+    deleted_at: null
+  Comite_6:
+    nombre: comite6
+    Estado: Estado_7
+    Municipio: Municipio_68
+    Parroquia: Parroquia_242
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:50:34'
+    updated_at: '2011-08-10 15:50:34'
+    deleted_at: null
+  Comite_7:
+    nombre: comite7
+    Estado: Estado_9
+    Municipio: Municipio_92
+    Parroquia: Parroquia_315
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:54:40'
+    updated_at: '2011-08-10 15:54:40'
+    deleted_at: null
+  Comite_8:
+    nombre: comite7
+    Estado: Estado_10
+    Municipio: Municipio_101
+    Parroquia: Parroquia_331
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-10 15:55:10'
+    deleted_at: null
+  Comite_9:
+    nombre: comite8
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_1
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-10 15:55:10'
+    deleted_at: null
+  Comite_10:
+    nombre: comite9
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_2
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-10 15:55:10'
+    deleted_at: null
+  Comite_11:
+    nombre: comite10
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_3
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-11 11:01:18'
+    deleted_at: '2011-08-11 11:01:18'
+  Comite_12:
+    nombre: comite11
+    Estado: Estado_2
+    Municipio: Municipio_2
+    Parroquia: Parroquia_23
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-10 15:55:10'
+    deleted_at: null
+  Comite_13:
+    nombre: comite12
+    Estado: Estado_2
+    Municipio: Municipio_3
+    Parroquia: Parroquia_29
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-10 15:55:10'
+    deleted_at: null
+  Comite_14:
+    nombre: comite13
+    Estado: Estado_3
+    Municipio: Municipio_9
+    Parroquia: Parroquia_47
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-10 15:55:10'
+    deleted_at: null
+  Comite_15:
+    nombre: comite14
+    Estado: Estado_3
+    Municipio: Municipio_10
+    Parroquia: Parroquia_49
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-10 15:55:10'
+    deleted_at: null
+  Comite_16:
+    nombre: comite15
+    Estado: Estado_3
+    Municipio: Municipio_11
+    Parroquia: Parroquia_50
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-10 15:55:10'
+    deleted_at: null
+  Comite_17:
+    nombre: comite16
+    Estado: Estado_4
+    Municipio: Municipio_32
+    Parroquia: Parroquia_112
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-10 15:55:10'
+    deleted_at: null
+  Comite_18:
+    nombre: comite17
+    Estado: Estado_4
+    Municipio: Municipio_33
+    Parroquia: Parroquia_116
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-10 15:55:10'
+    deleted_at: null
+  Comite_19:
+    nombre: comite18
+    Estado: Estado_4
+    Municipio: Municipio_34
+    Parroquia: Parroquia_120
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-10 15:55:10'
+    deleted_at: null
+  Comite_20:
+    nombre: comite19
+    Estado: Estado_5
+    Municipio: Municipio_37
+    Parroquia: Parroquia_129
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-10 15:55:10'
+    deleted_at: null
+  Comite_21:
+    nombre: comite20
+    Estado: Estado_5
+    Municipio: Municipio_38
+    Parroquia: Parroquia_130
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-10 15:55:10'
+    deleted_at: null
+  Comite_22:
+    nombre: comite21
+    Estado: Estado_5
+    Municipio: Municipio_39
+    Parroquia: Parroquia_139
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-10 15:55:10'
+    deleted_at: null
+  Comite_23:
+    nombre: comite22
+    Estado: Estado_6
+    Municipio: Municipio_55
+    Parroquia: Parroquia_180
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-10 15:55:10'
+    deleted_at: null
+  Comite_24:
+    nombre: comite23
+    Estado: Estado_7
+    Municipio: Municipio_67
+    Parroquia: Parroquia_232
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-10 15:55:10'
+    deleted_at: null
+  Comite_25:
+    nombre: comite24
+    Estado: Estado_8
+    Municipio: Municipio_78
+    Parroquia: Parroquia_277
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-10 15:55:10'
+    deleted_at: null
+  Comite_26:
+    nombre: comite25
+    Estado: Estado_9
+    Municipio: Municipio_91
+    Parroquia: Parroquia_306
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-10 15:55:10'
+    deleted_at: null
+  Comite_27:
+    nombre: comite26
+    Estado: Estado_10
+    Municipio: Municipio_101
+    Parroquia: Parroquia_330
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-10 15:55:10'
+    deleted_at: null
+  Comite_28:
+    nombre: comite27
+    Estado: Estado_10
+    Municipio: Municipio_102
+    Parroquia: Parroquia_336
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-10 15:55:10'
+    deleted_at: null
+  Comite_29:
+    nombre: comite28
+    Estado: Estado_10
+    Municipio: Municipio_103
+    Parroquia: Parroquia_341
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-10 15:55:10'
+    deleted_at: null
+  Comite_30:
+    nombre: comite29
+    Estado: Estado_10
+    Municipio: Municipio_104
+    Parroquia: Parroquia_343
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-10 15:55:10'
+    deleted_at: null
+  Comite_31:
+    nombre: comite30
+    Estado: Estado_11
+    Municipio: Municipio_105
+    Parroquia: Parroquia_351
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-10 15:55:10'
+    deleted_at: null
+  Comite_32:
+    nombre: comite31
+    Estado: Estado_11
+    Municipio: Municipio_106
+    Parroquia: Parroquia_356
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-10 15:55:10'
+    deleted_at: null
+  Comite_33:
+    nombre: comite32
+    Estado: Estado_12
+    Municipio: Municipio_130
+    Parroquia: Parroquia_434
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-10 15:55:10'
+    deleted_at: null
+  Comite_34:
+    nombre: comite33
+    Estado: Estado_12
+    Municipio: Municipio_131
+    Parroquia: Parroquia_437
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-10 15:55:10'
+    deleted_at: null
+  Comite_35:
+    nombre: comite34
+    Estado: Estado_12
+    Municipio: Municipio_132
+    Parroquia: Parroquia_438
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-10 15:55:10'
+    deleted_at: null
+  Comite_36:
+    nombre: comite35
+    Estado: Estado_13
+    Municipio: Municipio_145
+    Parroquia: Parroquia_474
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-10 15:55:10'
+    deleted_at: null
+  Comite_37:
+    nombre: comite36
+    Estado: Estado_13
+    Municipio: Municipio_146
+    Parroquia: Parroquia_476
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-10 15:55:10'
+    deleted_at: null
+  Comite_38:
+    nombre: comite37
+    Estado: Estado_13
+    Municipio: Municipio_147
+    Parroquia: Parroquia_478
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-10 15:55:10'
+    deleted_at: null
+  Comite_39:
+    nombre: comite38
+    Estado: Estado_14
+    Municipio: Municipio_154
+    Parroquia: Parroquia_531
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-10 15:55:10'
+    deleted_at: null
+  Comite_40:
+    nombre: comite39
+    Estado: Estado_15
+    Municipio: Municipio_177
+    Parroquia: Parroquia_620
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-10 15:55:10'
+    deleted_at: null
+  Comite_41:
+    nombre: comite40
+    Estado: Estado_16
+    Municipio: Municipio_198
+    Parroquia: Parroquia_672
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-10 15:55:10'
+    deleted_at: null
+  Comite_42:
+    nombre: comite41
+    Estado: Estado_17
+    Municipio: Municipio_211
+    Parroquia: Parroquia_716
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-10 15:55:10'
+    deleted_at: null
+  Comite_43:
+    nombre: comite42
+    Estado: Estado_18
+    Municipio: Municipio_222
+    Parroquia: Parroquia_738
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-10 15:55:10'
+    deleted_at: null
+  Comite_44:
+    nombre: comite43
+    Estado: Estado_19
+    Municipio: Municipio_239
+    Parroquia: Parroquia_788
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-10 15:55:10'
+    deleted_at: null
+  Comite_45:
+    nombre: comite44
+    Estado: Estado_19
+    Municipio: Municipio_240
+    Parroquia: Parroquia_794
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-10 15:55:10'
+    deleted_at: null
+  Comite_46:
+    nombre: comite45
+    Estado: Estado_20
+    Municipio: Municipio_251
+    Parroquia: Parroquia_836
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-10 15:55:10'
+    deleted_at: null
+  Comite_47:
+    nombre: comite46
+    Estado: Estado_20
+    Municipio: Municipio_252
+    Parroquia: Parroquia_837
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-10 15:55:10'
+    deleted_at: null
+  Comite_48:
+    nombre: comite47
+    Estado: Estado_20
+    Municipio: Municipio_253
+    Parroquia: Parroquia_839
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-10 15:55:10'
+    deleted_at: null
+  Comite_49:
+    nombre: comite48
+    Estado: Estado_20
+    Municipio: Municipio_254
+    Parroquia: Parroquia_841
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-10 15:55:10'
+    deleted_at: null
+  Comite_50:
+    nombre: comite49
+    Estado: Estado_21
+    Municipio: Municipio_280
+    Parroquia: Parroquia_902
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-10 15:55:10'
+    deleted_at: null
+  Comite_51:
+    nombre: comite50
+    Estado: Estado_21
+    Municipio: Municipio_281
+    Parroquia: Parroquia_908
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-10 15:55:10'
+    deleted_at: null
+  Comite_52:
+    nombre: comite51
+    Estado: Estado_21
+    Municipio: Municipio_282
+    Parroquia: Parroquia_918
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-10 15:55:10'
+    deleted_at: null
+  Comite_53:
+    nombre: comite52
+    Estado: Estado_22
+    Municipio: Municipio_300
+    Parroquia: Parroquia_995
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-10 15:55:10'
+    deleted_at: null
+  Comite_54:
+    nombre: comite53
+    Estado: Estado_22
+    Municipio: Municipio_301
+    Parroquia: Parroquia_996
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-10 15:55:10'
+    deleted_at: null
+  Comite_55:
+    nombre: comite54
+    Estado: Estado_23
+    Municipio: Municipio_314
+    Parroquia: Parroquia_1016
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-10 15:55:10'
+    deleted_at: null
+  Comite_56:
+    nombre: comite55
+    Estado: Estado_24
+    Municipio: Municipio_335
+    Parroquia: Parroquia_1124
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-10 15:55:10'
+    deleted_at: null
+  Comite_57:
+    nombre: comite56
+    Estado: Estado_24
+    Municipio: Municipio_335
+    Parroquia: Parroquia_1125
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-10 15:55:10'
+    updated_at: '2011-08-10 15:55:10'
     deleted_at: null

@@ -12,6 +12,7 @@
  * @property Doctrine_Collection $Consejocomunal
  * @property Doctrine_Collection $Comite
  * @property Doctrine_Collection $Adulto
+ * @property Doctrine_Collection $Meta
  * 
  * @method integer             getId()             Returns the current record's "id" value
  * @method string              getNombre()         Returns the current record's "nombre" value
@@ -20,6 +21,7 @@
  * @method Doctrine_Collection getConsejocomunal() Returns the current record's "Consejocomunal" collection
  * @method Doctrine_Collection getComite()         Returns the current record's "Comite" collection
  * @method Doctrine_Collection getAdulto()         Returns the current record's "Adulto" collection
+ * @method Doctrine_Collection getMeta()           Returns the current record's "Meta" collection
  * @method Estado              setId()             Sets the current record's "id" value
  * @method Estado              setNombre()         Sets the current record's "nombre" value
  * @method Estado              setUser()           Sets the current record's "User" collection
@@ -27,6 +29,7 @@
  * @method Estado              setConsejocomunal() Sets the current record's "Consejocomunal" collection
  * @method Estado              setComite()         Sets the current record's "Comite" collection
  * @method Estado              setAdulto()         Sets the current record's "Adulto" collection
+ * @method Estado              setMeta()           Sets the current record's "Meta" collection
  * 
  * @package    inasscomite
  * @subpackage model
@@ -74,6 +77,10 @@ abstract class BaseEstado extends sfDoctrineRecord
              'foreign' => 'estado_id'));
 
         $this->hasMany('Adulto', array(
+             'local' => 'id',
+             'foreign' => 'estado_id'));
+
+        $this->hasMany('Meta', array(
              'local' => 'id',
              'foreign' => 'estado_id'));
 

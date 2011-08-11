@@ -21,6 +21,11 @@ class adultosActions extends sfActions
     $this->menu = Doctrine::getTable('Adulto')->getDisplay(array(), true);
   }
 
+  public function executeAdultoIndex(sfWebRequest $request)
+  {
+      $this->adultos = Doctrine::getTable('Estado')->getTotalesxEstadoA();
+  }
+
   public function executeShow(sfWebRequest $request)
   {
     $this->adulto = Doctrine::getTable('Adulto')->find(array($request->getParameter('id')));
