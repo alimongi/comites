@@ -26,6 +26,31 @@ class comitesActions extends sfActions
       $this->comites = Doctrine::getTable('Estado')->getTotalesxEstadoC();
   }
 
+   public function executeBuscarxFecha(sfWebRequest $request)
+  {
+       
+  }
+
+  public function executeMostrar(sfWebRequest $request)
+    {
+        if ($request->getMethod() == 'POST' ) {
+
+            $this->comites = Doctrine_Query::create()
+            ->select()->from('comite c')
+            ->addSelect('e.nombre as nombre')
+            ->addSelect('c.estado_id')
+            ->addSelect('count(c.id) as total')
+            ->leftJoin('c.Estado e')
+            ->where('c.created_at >= ?', $request->getParameter('fecha_inicial'))
+            ->andWhere('c.created_at <= ?', $request->getParameter('fecha_final'))
+            ->andWhere('c.deleted_at IS NULL')
+            ->groupBy('c.estado_id')
+            ->fetchArray();
+            }
+        $this->setTemplate('BuscarxFecha');
+    }
+
+
   public function executeShow(sfWebRequest $request)
   {
     $this->comite = Doctrine::getTable('Comite')->find(array($request->getParameter('id')));

@@ -10,7 +10,7 @@ class ConsejocomunalTable extends Doctrine_Table
 
     public function getJson($id) {
         $_rs = $this->createQuery('c')
-                        ->where('c.estado_id = ?', $id)
+                        ->where('c.parroquia_id = ?', $id)
                         ->orderBy('c.nombre')
                         ->execute();
         $_json[] = array('id' => 1, 'descripcion' => 'Ninguno');

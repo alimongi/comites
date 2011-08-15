@@ -21,6 +21,7 @@ class EstadoTable extends Doctrine_Table
                 ->groupBy('e.id')
                 ->fetchArray();
     }
+
     
         public function getTotalesxEstadoA()
     {

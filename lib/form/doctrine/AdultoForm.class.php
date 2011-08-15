@@ -33,15 +33,16 @@ class AdultoForm extends BaseAdultoForm
                     'add_empty' => '***** Seleccione *****',
                     'query' => Doctrine::getTable('estado')->createQuery('e')->whereIn('e.id', $ids),
                     'order_by' => array('nombre', 'asc')), array(
-                    'onchange' => "cargarCombo('" . url_for('adultos/jsonMunicipios/') . "',this.value,'adulto_municipio_id'); cargarCombo('" . url_for('adultos/jsonParroquias/') . "',this.value,'adulto_parroquia_id'); cargarCombo('" . url_for('adultos/jsonComites/') . "',this.value,'adulto_comite_id')"
+                    'onchange' => "cargarCombo('" . url_for('adultos/jsonMunicipios/') . "',this.value,'adulto_municipio_id');"
                 )));
         if ($this->isNew()) {
             $this->setWidget('municipio_id', new sfWidgetFormSelect(array('choices' => array('***** Seleccione *****')), array('onchange' => "cargarCombo('" . url_for('adultos/jsonParroquias/') . "',this.value,'adulto_parroquia_id')")));
-            $this->setWidget('parroquia_id', new sfWidgetFormSelect(array('choices' => array('***** Seleccione *****'))));
+            $this->setWidget('parroquia_id', new sfWidgetFormSelect(array('choices' => array('***** Seleccione *****')), array('onchange' => "cargarCombo('" . url_for('adultos/jsonComites/') . "',this.value,'adulto_comite_id')")));
             $this->setWidget('comite_id', new sfWidgetFormSelect(array('choices' => array('***** Seleccione *****'))));           
         } else {
             $idEst = $this->getObject()->getEstadoId();
             $idMun = $this->getObject()->getMunicipioId();
+            $idPar = $this->getObject()->getParroquiaId();
             $this->setWidget('municipio_id', new sfWidgetFormDoctrineChoice(array(
                         'model' => 'municipio',
                         'query' => Doctrine::getTable('municipio')->createQuery('m')->where('m.estado_id = ?', $idEst)
@@ -51,10 +52,12 @@ class AdultoForm extends BaseAdultoForm
             $this->setWidget('parroquia_id', new sfWidgetFormDoctrineChoice(array(
                         'model' => 'parroquia',
                         'query' => Doctrine::getTable('parroquia')->createQuery('p')->where('p.municipio_id = ?', $idMun)
+                  ), array(
+                        'onchange' => "cargarCombo('" . url_for('adultos/jsonComites/') . "',this.value,'adulto_comite_id')"
                     )));
             $this->setWidget('comite_id', new sfWidgetFormDoctrineChoice(array(
                         'model' => 'comite',
-                        'query' => Doctrine::getTable('comite')->createQuery('c')->where('c.estado_id = ?', $idEst)
+                        'query' => Doctrine::getTable('comite')->createQuery('c')->where('c.parroquia_id = ?', $idPar)
                     )));
         }
   }
