@@ -28,13 +28,14 @@ class comitesActions extends sfActions
 
    public function executeBuscarxFecha(sfWebRequest $request)
   {
-       
+       $this->form = new SearchForm();
   }
 
   public function executeMostrar(sfWebRequest $request)
     {
-        if ($request->getMethod() == 'POST' ) {
-
+      
+      if ($request->getMethod() == 'POST' ) {
+          $this->form = new SearchForm();
             $this->comites = Doctrine_Query::create()
             ->select()->from('comite c')
             ->addSelect('e.nombre as nombre')
@@ -46,6 +47,8 @@ class comitesActions extends sfActions
             ->andWhere('c.deleted_at IS NULL')
             ->groupBy('c.estado_id')
             ->fetchArray();
+       $this->fecha_inicial = $request->getParameter('fecha_inicial', '');
+       $this->fecha_final = $request->getParameter('fecha_final', '');
             }
         $this->setTemplate('BuscarxFecha');
     }
