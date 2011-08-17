@@ -39,6 +39,10 @@
       <td><?php echo $comite->getConsejocomunal() ?></td>
     </tr>
     <tr>
+      <th>Acta de Constitución:</th>
+      <td><a href="<?php echo url_for('comites/DownloadActa?id='.$comite->getId()) ?>">Acta-<?php echo $comite->getNombre() ?></a></td>
+    </tr>
+    <tr>
       <th>Created at:</th>
       <td><?php echo $comite->getCreatedAt() ?></td>
     </tr>

@@ -65,6 +65,7 @@
                     <li><a href="<?php echo url_for('adultos/index')?>">Ver</a></li>
                     <li><a href="<?php echo url_for('adultos/BuscarAdulto')?>">Buscar</a></li>
                     <li><a href="<?php echo url_for('adultos/AdultoIndex')?>">Estadística Adult@s Por Estados</a></li>
+                    <li><a href="<?php echo url_for('adultos/BuscarxFecha')?>">Estadística Adult@s Por Fechas</a></li>
                     </ul>
                 </div>
         </section>

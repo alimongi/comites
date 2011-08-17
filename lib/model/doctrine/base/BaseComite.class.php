@@ -13,6 +13,8 @@
  * @property string $sector
  * @property boolean $registrado
  * @property integer $consejo_id
+ * @property string $acta
+ * @property string $mimetype
  * @property long $latitud
  * @property long $longitud
  * @property Estado $Estado
@@ -29,6 +31,8 @@
  * @method string              getSector()         Returns the current record's "sector" value
  * @method boolean             getRegistrado()     Returns the current record's "registrado" value
  * @method integer             getConsejoId()      Returns the current record's "consejo_id" value
+ * @method string              getActa()           Returns the current record's "acta" value
+ * @method string              getMimetype()       Returns the current record's "mimetype" value
  * @method long                getLatitud()        Returns the current record's "latitud" value
  * @method long                getLongitud()       Returns the current record's "longitud" value
  * @method Estado              getEstado()         Returns the current record's "Estado" value
@@ -44,6 +48,8 @@
  * @method Comite              setSector()         Sets the current record's "sector" value
  * @method Comite              setRegistrado()     Sets the current record's "registrado" value
  * @method Comite              setConsejoId()      Sets the current record's "consejo_id" value
+ * @method Comite              setActa()           Sets the current record's "acta" value
+ * @method Comite              setMimetype()       Sets the current record's "mimetype" value
  * @method Comite              setLatitud()        Sets the current record's "latitud" value
  * @method Comite              setLongitud()       Sets the current record's "longitud" value
  * @method Comite              setEstado()         Sets the current record's "Estado" value
@@ -107,6 +113,18 @@ abstract class BaseComite extends sfDoctrineRecord
              'notblank' => false,
              'default' => 0,
              'length' => 4,
+             ));
+        $this->hasColumn('acta', 'string', 254, array(
+             'type' => 'string',
+             'notnull' => false,
+             'notblank' => false,
+             'length' => 254,
+             ));
+        $this->hasColumn('mimetype', 'string', 120, array(
+             'type' => 'string',
+             'notnull' => false,
+             'notblank' => false,
+             'length' => 120,
              ));
         $this->hasColumn('latitud', 'long', null, array(
              'type' => 'long',

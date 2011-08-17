@@ -147,7 +147,1632 @@ Consejocomunal:
     sector: MARA
     activo: true
     contacto: 'Pablo Duran'
-    telefono: '6546879725525'
+    telefono: '4129852602'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_3:
+    codigo: 01-01-22-001-0015
+    nombre: '13 de abril'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_22
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4129852602'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_4:
+    codigo: 01-01-21-001-0101
+    nombre: '1 calle el carmen'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4129852602'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_5:
+    codigo: 01-01-22-001-0017
+    nombre: '3c camboya'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_22
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4129852602'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_6:
+    codigo: 01-01-11-001-0002
+    nombre: '5 DE JULIO AGUA SALUD'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_11
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '2128619317'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_7:
+    codigo: 01-01-22-001-0024
+    nombre: 'Abriendo Caminos'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_22
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '2128587770'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_8:
+    codigo: 01-01-22-001-0012
+    nombre: Agape
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_22
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4125868293'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_9:
+    codigo: 01-01-11-001-0004
+    nombre: 'ALIANZA COMUNITARIA'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_11
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '2128628863'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_10:
+    codigo: 01-01-11-001-0042
+    nombre: 'ali primera'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_11
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4129937849'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_11:
+    codigo: 01-01-21-001-0185
+    nombre: 'ALI PRIMERA'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4140218712'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_12:
+    codigo: 01-01-21-001-0234
+    nombre: 'alirio diaz'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4168065412'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_13:
+    codigo: 01-01-21-001-0199
+    nombre: 'ALTA MIRA DEL FUTURO PARA EL SIGLO XXI'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: false
+    contacto: 'Pablo Duran'
+    telefono: '4168065412'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_14:
+    codigo: 01-01-07-001-0052
+    nombre: 'ALTA PE?A'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_7
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4168332619'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_15:
+    codigo: 01-01-07-001-0031
+    nombre: 'altos de irapa'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_7
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '2124121974'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_16:
+    codigo: 01-01-21-001-0082
+    nombre: 'amanecer el resplandor de marayapa'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4242118181'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_17:
+    codigo: 01-01-22-001-0030
+    nombre: 'amanecio de golpe'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_22
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4241131805'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_18:
+    codigo: 01-01-11-001-0031
+    nombre: 'amigos del barrio'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_11
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4241131805'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_19:
+    codigo: 01-01-01-001-0017
+    nombre: 'ANDRES BELLO'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_10
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4143100708'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_20:
+    codigo: 01-01-07-001-0000
+    nombre: 'andres eloy blanco'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_7
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '2124421532'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_21:
+    codigo: 01-01-11-001-0013
+    nombre: 'andres eloy  blanco'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_11
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '2128606931'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_22:
+    codigo: 01-01-22-001-0039
+    nombre: 'andres eloy blanco sector el plan'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_22
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4140112913'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_23:
+    codigo: 01-01-21-001-0004
+    nombre: 'antonio jose de sucre'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4142081505'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_24:
+    codigo: 01-01-22-001-0052
+    nombre: 'arapal 11-19'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_22
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '2128587023'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_25:
+    codigo: 01-01-01-001-0016
+    nombre: ARCANTAMAR
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_1
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4247106784'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_26:
+    codigo: 01-01-22-001-0006
+    nombre: 'ATLANTICO NORTE BLOQUES 1 4 Y 5'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_22
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4143205793'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_27:
+    codigo: 01-01-21-001-0147
+    nombre: auyantepuy
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '2128722842'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_28:
+    codigo: 01-01-21-001-0241
+    nombre: AVANZAREMOS
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '2128722842'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_29:
+    codigo: 01-01-21-001-0221
+    nombre: 'AYACUCHO TRES LUNAS A BLANDIN'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4122090320'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_30:
+    codigo: 01-01-21-001-0250
+    nombre: 'baltazar padron'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4122090320'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_31:
+    codigo: 01-01-22-001-0003
+    nombre: 'BAMIRA 23E'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_22
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '2128320734'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_32:
+    codigo: 01-01-21-001-0179
+    nombre: Barnije
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4125827270'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_33:
+    codigo: 01-01-21-001-0093
+    nombre: 'BIMA AYACUCHO'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4141184860'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_34:
+    codigo: 01-01-21-001-0257
+    nombre: 'bloque 1 de cutira Urbanizacion Antonio Jose de Sucre'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4141352745'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_35:
+    codigo: 01-01-22-001-0023
+    nombre: 'Bloque 31 E'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_22
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '2128587753'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_36:
+    codigo: 01-01-22-001-0026
+    nombre: 'Bloque 32 y 33'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_22
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '2128587753'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_37:
+    codigo: 01-01-22-001-0041
+    nombre: 'BLOQUE 37 ZONA F'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_22
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4165354706'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_38:
+    codigo: 01-01-22-001-0009
+    nombre: 'bloque 54 23 de enero'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_22
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4165354706'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_39:
+    codigo: 01-01-22-001-0035
+    nombre: 'boque 3 y4  grande 5y 6 peque?o'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_22
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4162009290'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_40:
+    codigo: 01-01-01-001-0009
+    nombre: 'BRISAS DE LAS TERRAZASDEL AVILA'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_1
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4149118524'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_41:
+    codigo: 01-01-07-001-0017
+    nombre: 'brisas del encanto'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_7
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4269049208'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_42:
+    codigo: 01-01-20-001-0008
+    nombre: bucare
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_20
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '2124849009'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_43:
+    codigo: 01-01-21-001-0079
+    nombre: 'Cacique Catia'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4167036368'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_44:
+    codigo: 01-01-05-001-0004
+    nombre: 'CACIQUE TEREPAIMA'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_5
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '2125412440'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_45:
+    codigo: 01-01-07-001-0043
+    nombre: 'cafetal socialista parte alta'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_7
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '2125412440'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_46:
+    codigo: 01-01-21-001-0006
+    nombre: 'CALLEJON SAN PEDRO ESCALERA TELEGRAFICA'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '2127058597'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_47:
+    codigo: 01-01-07-001-0035
+    nombre: 'CALLEJON TRUJILLO I Y II'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_7
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '2124122226'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_48:
+    codigo: 01-01-21-001-0188
+    nombre: 'calle la ladera de los magallanes de catia'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4168038594'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_49:
+    codigo: 01-01-22-001-0025
+    nombre: 'Calle Miranda barrio Sucre Parte Alta'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_22
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4164234977'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_50:
+    codigo: 01-01-07-001-0036
+    nombre: 'calles unidas'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_7
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '2124221639'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_51:
+    codigo: 01-01-21-001-0260
+    nombre: 'calles unidas de la cortada de catia'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '2124221639'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_52:
+    codigo: 01-01-05-001-0002
+    nombre: camejo
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_5
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4126107859'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_53:
+    codigo: 01-01-11-001-0008
+    nombre: 'Camino de los espa?oles'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_11
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '2127629163'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_54:
+    codigo: 01-01-11-001-0012
+    nombre: 'campo elias 0702'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_11
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4164044550'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_55:
+    codigo: 01-01-21-001-0253
+    nombre: canaima
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4125839331'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_56:
+    codigo: 01-01-22-001-0001
+    nombre: 'CA?O AMARILLO'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_22
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4141966523'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_57:
+    codigo: 01-01-21-001-0028
+    nombre: 'capitan rivas vegas'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4125774311'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_58:
+    codigo: 01-01-22-001-0022
+    nombre: 'CARLOS RAUL VILLANUEVA'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_22
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4127381265'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_59:
+    codigo: 01-01-11-001-0003
+    nombre: 'CARMEN DE DIOS'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_11
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4166140040'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_60:
+    codigo: 01-01-21-001-0044
+    nombre: 'Carmen Millan de Guevara'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4169107268'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_61:
+    codigo: 01-01-11-001-0021
+    nombre: 'casco central 1 sector noroeste'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_11
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4143030789'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_62:
+    codigo: 01-01-11-001-0016
+    nombre: 'Casco Central 2'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_11
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '2128815242'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_63:
+    codigo: 01-01-07-001-0054
+    nombre: 'casco central junko junquito'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_7
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4142761996'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_64:
+    codigo: 01-01-21-001-0254
+    nombre: 'casco central nuevo dia'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4142761996'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_65:
+    codigo: 01-01-01-001-0014
+    nombre: 'casco historico simon bolivar'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_1
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4167155124'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_66:
+    codigo: 01-01-21-001-0258
+    nombre: 'catia avanza'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4167155124'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_67:
+    codigo: 01-01-07-001-0029
+    nombre: 'CC 5 DE JULIO'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_7
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4165192927'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_68:
+    codigo: 01-01-01-001-0000
+    nombre: 'C.C JOSE MARIA VARGAS'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_1
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '2125635660'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_69:
+    codigo: 01-01-21-001-0137
+    nombre: 'cc yoni cede?o yhonny cede?o'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '2127161605'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_70:
+    codigo: 01-01-22-001-0056
+    nombre: 'central 2223'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_22
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4241082529'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_71:
+    codigo: 01-01-21-001-0014
+    nombre: 'che guevara'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4128005983'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_72:
+    codigo: 01-01-22-001-0055
+    nombre: churunmerun
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_22
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4128005983'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_73:
+    codigo: 01-01-11-001-0015
+    nombre: cocorovalo
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_11
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4141172662'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_74:
+    codigo: 01-01-07-001-0007
+    nombre: 'colina del rey'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_7
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4142490943'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_75:
+    codigo: 01-01-21-001-0019
+    nombre: 'COLINA PARTE ALTA'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '2123955591'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_76:
+    codigo: 01-01-07-001-0012
+    nombre: 'COLINAS DE CANAIMA'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_7
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4141721393'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_77:
+    codigo: 01-01-22-001-0019
+    nombre: 'COLINAS DEL MIRADOR'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_22
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '2128583026'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_78:
+    codigo: 01-01-21-001-0077
+    nombre: 'colina simon rodriguez'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4142612223'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_79:
+    codigo: 01-01-07-001-0015
+    nombre: 'colina suave'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_7
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '2128149417'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_80:
+    codigo: 01-01-21-001-0240
+    nombre: 'colina verde'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '2128149417'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_81:
+    codigo: 01-01-22-001-0028
+    nombre: 'COMITE  ANDRES BELLO'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_22
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4163041437'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_82:
+    codigo: 01-01-22-001-0031
+    nombre: 'comunidad los higuitos'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_22
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4126113092'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_83:
+    codigo: 01-01-21-001-0230
+    nombre: 'COMUNIDAD UNIDA LIBERTAD II'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4164281990'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_84:
+    codigo: 01-01-11-001-0037
+    nombre: 'conjunto residencial los mecedores'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_11
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4164281990'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_85:
+    codigo: 01-01-21-001-0067
+    nombre: 'con la union la nueva esperanza'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4149156610'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_86:
+    codigo: 01-01-21-001-0123
+    nombre: 'CONSEJO C BOLIVARIANO ALTOS  DE CUTIRA'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4122133465'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_87:
+    codigo: 01-01-21-001-0121
+    nombre: 'CONSEJO COMUNAL LAS PALMAS'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '2128719665'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_88:
+    codigo: 01-01-21-001-0206
+    nombre: 'Construyendo la patria nueva'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4129585380'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_89:
+    codigo: 01-01-21-001-0217
+    nombre: Contivera
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '2124931912'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_90:
+    codigo: 01-01-11-001-0001
+    nombre: COPROMILCA
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_11
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4149247588'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_91:
+    codigo: 01-01-11-001-0046
+    nombre: 'COROMOTO SANTA BARABARA'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_11
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4149198800'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_92:
+    codigo: 01-01-22-001-0048
+    nombre: 'cristo rey'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_22
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '2128624113'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_93:
+    codigo: 01-01-07-001-0024
+    nombre: 'CRISTO REY Y LOS PICA PIEDRAS'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_7
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '2128624113'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_94:
+    codigo: 01-01-07-001-0044
+    nombre: cultura
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_7
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4143044635'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_95:
+    codigo: 01-01-07-001-0014
+    nombre: 'CUMBRE LAS ORQUIDEAS'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_7
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4142741403'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_96:
+    codigo: 01-01-21-001-0265
+    nombre: 'curva las mercedes'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4142741403'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_97:
+    codigo: 01-01-07-001-0023
+    nombre: 'del campesino'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_7
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '2127159464'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_98:
+    codigo: 01-01-21-001-0056
+    nombre: 'DE MANO CON LA REVOLUCION'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4161191367'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_99:
+    codigo: 01-01-11-001-0038
+    nombre: 'diego de lozada'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_11
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4161191367'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_100:
+    codigo: 01-01-21-001-0225
+    nombre: 'DR CARLOSDIEZ DEL CIERVO'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4122952313'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_101:
+    codigo: 01-01-21-001-0086
+    nombre: 'ecologico del sector c nueva tacagua'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4125658818'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_102:
+    codigo: 01-01-21-001-0231
+    nombre: 'el arbol'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4125658818'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_103:
+    codigo: 01-01-11-001-0045
+    nombre: 'EL AVILA'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_11
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4241847620'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_104:
+    codigo: 01-01-22-001-0059
+    nombre: 'EL BICENTENARIO'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_22
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4241847620'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_105:
+    codigo: 01-01-21-001-0097
+    nombre: 'El Buen Vecino'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4123861673'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_106:
+    codigo: 01-01-07-001-0041
+    nombre: 'el cafetal'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_7
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4143023989'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_107:
+    codigo: 01-01-21-001-0270
+    nombre: 'EL CAMBURAL 13 DE ABRIL'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4141537770'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_108:
+    codigo: 01-01-22-001-0037
+    nombre: 'el ca?on'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_22
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4120170425'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_109:
+    codigo: 01-01-11-001-0026
+    nombre: 'EL CA?ON'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_11
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4165297504'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_110:
+    codigo: 01-01-21-001-0083
+    nombre: 'el caribe'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4269094367'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_111:
+    codigo: 01-01-21-001-0141
+    nombre: 'EL CAUJARO'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4142020940'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_112:
+    codigo: 01-01-21-001-0065
+    nombre: 'EL COMANDANTE'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4142020940'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_113:
+    codigo: 01-01-01-001-0008
+    nombre: 'el despertar bolivariano'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_1
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '2128604759'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_114:
+    codigo: 01-01-21-001-0050
+    nombre: 'EL DESPERTAR DEL NAZARENO'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '2128604759'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_115:
+    codigo: 01-01-01-001-0003
+    nombre: 'el estanque'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_1
+    sector: 'Caracas (Capital)'
+    activo: false
+    contacto: 'Pablo Duran'
+    telefono: '2128339652'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_116:
+    codigo: 01-01-21-001-0127
+    nombre: 'el jabillo de la pedrera'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4149172227'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_117:
+    codigo: 01-01-21-001-0223
+    nombre: 'el lago'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4168271776'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_118:
+    codigo: 01-01-21-001-0087
+    nombre: 'el libertador'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4168331003'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_119:
+    codigo: 01-01-21-001-0132
+    nombre: 'EL LIBERTADOR'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4164080426'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_120:
+    codigo: 01-01-21-001-0038
+    nombre: 'EL MILAGRO ESCALERA 63 M.'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4141543922'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_121:
+    codigo: 01-01-11-001-0043
+    nombre: 'EL MILLO'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_11
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '2126152609'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_122:
+    codigo: 01-01-21-001-0153
+    nombre: 'el moreno'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4140277529'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_123:
+    codigo: 01-01-07-001-0006
+    nombre: 'EL NARANJAL'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_7
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '2125148822'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_124:
+    codigo: 01-01-21-001-0098
+    nombre: 'el nuevo renacer'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4149055965'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_125:
+    codigo: 01-01-01-001-0015
+    nombre: 'el paraiso de miraflores'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_1
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4149055965'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_126:
+    codigo: 01-01-21-001-0059
+    nombre: 'el pauji I'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4149055965'
+    created_at: '2011-08-02 09:47:27'
+    updated_at: '2011-08-02 09:47:27'
+    deleted_at: null
+  Consejocomunal_127:
+    codigo: 01-01-21-001-0232
+    nombre: 'EL PAUJI SOCIALISTA'
+    Estado: Estado_1
+    Municipio: Municipio_1
+    Parroquia: Parroquia_21
+    sector: 'Caracas (Capital)'
+    activo: true
+    contacto: 'Pablo Duran'
+    telefono: '4149055965'
     created_at: '2011-08-02 09:47:27'
     updated_at: '2011-08-02 09:47:27'
     deleted_at: null
@@ -161,7 +1786,7 @@ Adulto:
     estado_civ: Casad@
     Estado: Estado_1
     Municipio: Municipio_1
-    Parroquia: Parroquia_19
+    Parroquia: Parroquia_1
     direccion: Nada
     telf1: '2125555554'
     telf2: '2125555556'
@@ -357,9 +1982,9 @@ Adulto:
     fnacimiento: '1976-05-10'
     sexo: F
     estado_civ: Casad@
-    Estado: Estado_1
-    Municipio: Municipio_1
-    Parroquia: Parroquia_1
+    Estado: Estado_3
+    Municipio: Municipio_25
+    Parroquia: Parroquia_89
     direccion: Nada
     telf1: '2125555563'
     telf2: '2125555565'
@@ -367,10 +1992,10 @@ Adulto:
     familiar: 'Ligia Limongi'
     telf_fam: '2125555557'
     fallecido: No
-    Comite: Comite_9
+    Comite: Comite_1
     vocero: No
     created_at: '2011-08-11 11:58:03'
-    updated_at: '2011-08-11 11:59:12'
+    updated_at: '2011-08-12 14:47:32'
     deleted_at: null
   Adulto_11:
     ci: '12502003'
@@ -401,9 +2026,9 @@ Adulto:
     fnacimiento: '1976-05-12'
     sexo: F
     estado_civ: Casad@
-    Estado: Estado_1
-    Municipio: Municipio_1
-    Parroquia: Parroquia_3
+    Estado: Estado_2
+    Municipio: Municipio_2
+    Parroquia: Parroquia_23
     direccion: Nada
     telf1: '2125555565'
     telf2: '2125555567'
@@ -411,10 +2036,10 @@ Adulto:
     familiar: 'Ligia Limongi'
     telf_fam: '2125555557'
     fallecido: No
-    Comite: Comite_11
+    Comite: Comite_12
     vocero: No
     created_at: '2011-08-11 11:58:03'
-    updated_at: '2011-08-11 11:59:12'
+    updated_at: '2011-08-12 15:46:40'
     deleted_at: null
   Adulto_13:
     ci: '12502005'
@@ -10244,6 +11869,157 @@ Parroquia:
     created_at: '2011-03-31 18:37:36'
     updated_at: '2011-03-31 18:37:36'
     deleted_at: null
+Meta:
+  Meta_1:
+    Estado: Estado_1
+    cantidad: '733'
+    created_at: '2011-08-11 17:38:34'
+    updated_at: '2011-08-11 17:38:34'
+    deleted_at: null
+  Meta_2:
+    Estado: Estado_2
+    cantidad: '310'
+    created_at: '2011-08-11 17:38:34'
+    updated_at: '2011-08-11 17:38:34'
+    deleted_at: null
+  Meta_3:
+    Estado: Estado_3
+    cantidad: '956'
+    created_at: '2011-08-11 17:38:34'
+    updated_at: '2011-08-11 17:38:34'
+    deleted_at: null
+  Meta_4:
+    Estado: Estado_4
+    cantidad: '675'
+    created_at: '2011-08-11 17:38:34'
+    updated_at: '2011-08-11 17:38:34'
+    deleted_at: null
+  Meta_5:
+    Estado: Estado_5
+    cantidad: '788'
+    created_at: '2011-08-11 17:38:34'
+    updated_at: '2011-08-11 17:38:34'
+    deleted_at: null
+  Meta_6:
+    Estado: Estado_6
+    cantidad: '1088'
+    created_at: '2011-08-11 17:38:34'
+    updated_at: '2011-08-11 17:38:34'
+    deleted_at: null
+  Meta_7:
+    Estado: Estado_7
+    cantidad: '1153'
+    created_at: '2011-08-11 17:38:34'
+    updated_at: '2011-08-11 17:38:34'
+    deleted_at: null
+  Meta_8:
+    Estado: Estado_8
+    cantidad: '975'
+    created_at: '2011-08-11 17:38:34'
+    updated_at: '2011-08-11 17:38:34'
+    deleted_at: null
+  Meta_9:
+    Estado: Estado_9
+    cantidad: '388'
+    created_at: '2011-08-11 17:38:34'
+    updated_at: '2011-08-11 17:38:34'
+    deleted_at: null
+  Meta_10:
+    Estado: Estado_10
+    cantidad: '317'
+    created_at: '2011-08-11 17:38:34'
+    updated_at: '2011-08-11 17:38:34'
+    deleted_at: null
+  Meta_11:
+    Estado: Estado_11
+    cantidad: '1064'
+    created_at: '2011-08-11 17:38:34'
+    updated_at: '2011-08-11 17:38:34'
+    deleted_at: null
+  Meta_12:
+    Estado: Estado_12
+    cantidad: '764'
+    created_at: '2011-08-11 17:38:34'
+    updated_at: '2011-08-11 17:38:34'
+    deleted_at: null
+  Meta_13:
+    Estado: Estado_13
+    cantidad: '1685'
+    created_at: '2011-08-11 17:38:34'
+    updated_at: '2011-08-11 17:38:34'
+    deleted_at: null
+  Meta_14:
+    Estado: Estado_14
+    cantidad: '1137'
+    created_at: '2011-08-11 17:38:34'
+    updated_at: '2011-08-11 17:38:34'
+    deleted_at: null
+  Meta_15:
+    Estado: Estado_15
+    cantidad: '1591'
+    created_at: '2011-08-11 17:38:34'
+    updated_at: '2011-08-11 17:38:34'
+    deleted_at: null
+  Meta_16:
+    Estado: Estado_16
+    cantidad: '491'
+    created_at: '2011-08-11 17:38:34'
+    updated_at: '2011-08-11 17:38:34'
+    deleted_at: null
+  Meta_17:
+    Estado: Estado_17
+    cantidad: '250'
+    created_at: '2011-08-11 17:38:34'
+    updated_at: '2011-08-11 17:38:34'
+    deleted_at: null
+  Meta_18:
+    Estado: Estado_18
+    cantidad: '839'
+    created_at: '2011-08-11 17:38:34'
+    updated_at: '2011-08-11 17:38:34'
+    deleted_at: null
+  Meta_19:
+    Estado: Estado_19
+    cantidad: '753'
+    created_at: '2011-08-11 17:38:34'
+    updated_at: '2011-08-11 17:38:34'
+    deleted_at: null
+  Meta_20:
+    Estado: Estado_20
+    cantidad: '1010'
+    created_at: '2011-08-11 17:38:34'
+    updated_at: '2011-08-11 17:38:34'
+    deleted_at: null
+  Meta_21:
+    Estado: Estado_21
+    cantidad: '934'
+    created_at: '2011-08-11 17:38:34'
+    updated_at: '2011-08-11 17:38:34'
+    deleted_at: null
+  Meta_22:
+    Estado: Estado_22
+    cantidad: '455'
+    created_at: '2011-08-11 17:38:34'
+    updated_at: '2011-08-11 17:38:34'
+    deleted_at: null
+  Meta_23:
+    Estado: Estado_23
+    cantidad: '1963'
+    created_at: '2011-08-11 17:38:34'
+    updated_at: '2011-08-11 17:38:34'
+    deleted_at: null
+  Meta_24:
+    Estado: Estado_24
+    cantidad: '262'
+    created_at: '2011-08-11 17:38:34'
+    updated_at: '2011-08-11 17:38:34'
+    deleted_at: null
+  Meta_25:
+    Estado: Estado_25
+    cantidad: '1'
+    created_at: '2011-08-11 17:38:34'
+    updated_at: '2011-08-11 17:38:34'
+    deleted_at: null
 sfGuardUser:
   sfGuardUser_1:
     first_name: Administrador
@@ -10255,13 +12031,30 @@ sfGuardUser:
     password: 123456
     is_active: true
     is_super_admin: false
-    last_login: '2011-08-11 12:05:32'
+    last_login: '2011-08-17 09:37:37'
     cedula: '1234567'
     created_at: '2011-04-28 10:44:53'
-    updated_at: '2011-08-11 12:05:32'
+    updated_at: '2011-08-17 09:37:37'
+  sfGuardUser_2:
+    first_name: Alexis
+    last_name: Limongi
+    email_address: alexislimongi@gmail.com
+    username: alimongi
+    algorithm: sha1
+    salt: a9f6e1e1c98670fe24c462eb0bff3f43
+    password: 123456
+    is_active: true
+    is_super_admin: false
+    last_login: '2011-08-16 15:48:35'
+    cedula: '12501993'
+    created_at: '2011-08-16 15:47:38'
+    updated_at: '2011-08-16 15:48:35'
 UserEstado:
   UserEstado_1_1:
     sfGuardUser: sfGuardUser_1
+    Estado: Estado_1
+  UserEstado_2_1:
+    sfGuardUser: sfGuardUser_2
     Estado: Estado_1
   UserEstado_1_2:
     sfGuardUser: sfGuardUser_1
@@ -10336,15 +12129,15 @@ Comite:
   Comite_1:
     nombre: comite1
     Estado: Estado_3
-    Municipio: Municipio_10
-    Parroquia: Parroquia_49
+    Municipio: Municipio_25
+    Parroquia: Parroquia_89
     sector: cachipor
-    registrado: true
-    Consejocomunal: Consejocomunal_2
+    registrado: false
+    Consejocomunal: Consejocomunal_1
     latitud: ''
     longitud: ''
-    created_at: '2011-08-02 11:44:59'
-    updated_at: '2011-08-09 10:26:12'
+    created_at: '2011-05-02 11:44:00'
+    updated_at: '2011-08-15 12:40:13'
     deleted_at: null
   Comite_2:
     nombre: comite2
@@ -10356,21 +12149,21 @@ Comite:
     Consejocomunal: Consejocomunal_1
     latitud: ''
     longitud: ''
-    created_at: '2011-08-02 13:37:20'
-    updated_at: '2011-08-10 15:26:50'
+    created_at: '2011-02-02 13:37:00'
+    updated_at: '2011-08-15 12:41:43'
     deleted_at: null
   Comite_3:
     nombre: comite3
-    Estado: Estado_2
-    Municipio: Municipio_2
-    Parroquia: Parroquia_23
+    Estado: Estado_3
+    Municipio: Municipio_10
+    Parroquia: Parroquia_49
     sector: nada
     registrado: false
     Consejocomunal: Consejocomunal_1
     latitud: ''
     longitud: ''
-    created_at: '2011-08-10 13:23:31'
-    updated_at: '2011-08-10 13:23:31'
+    created_at: '2011-06-10 13:23:00'
+    updated_at: '2011-08-15 12:40:23'
     deleted_at: null
   Comite_4:
     nombre: comite4
@@ -10382,8 +12175,8 @@ Comite:
     Consejocomunal: Consejocomunal_1
     latitud: ''
     longitud: ''
-    created_at: '2011-08-10 15:48:53'
-    updated_at: '2011-08-10 15:48:53'
+    created_at: '2011-06-10 15:48:00'
+    updated_at: '2011-08-15 12:43:10'
     deleted_at: null
   Comite_5:
     nombre: comite5
@@ -10395,8 +12188,8 @@ Comite:
     Consejocomunal: Consejocomunal_1
     latitud: ''
     longitud: ''
-    created_at: '2011-08-10 15:49:37'
-    updated_at: '2011-08-10 15:49:37'
+    created_at: '2011-10-10 15:49:00'
+    updated_at: '2011-08-15 12:41:02'
     deleted_at: null
   Comite_6:
     nombre: comite6
@@ -10408,8 +12201,8 @@ Comite:
     Consejocomunal: Consejocomunal_1
     latitud: ''
     longitud: ''
-    created_at: '2011-08-10 15:50:34'
-    updated_at: '2011-08-10 15:50:34'
+    created_at: '2011-09-10 15:50:00'
+    updated_at: '2011-08-15 12:43:34'
     deleted_at: null
   Comite_7:
     nombre: comite7
@@ -10421,8 +12214,8 @@ Comite:
     Consejocomunal: Consejocomunal_1
     latitud: ''
     longitud: ''
-    created_at: '2011-08-10 15:54:40'
-    updated_at: '2011-08-10 15:54:40'
+    created_at: '2011-12-10 15:54:00'
+    updated_at: '2011-08-15 12:44:11'
     deleted_at: null
   Comite_8:
     nombre: comite7
@@ -10447,8 +12240,8 @@ Comite:
     Consejocomunal: Consejocomunal_1
     latitud: ''
     longitud: ''
-    created_at: '2011-08-10 15:55:10'
-    updated_at: '2011-08-10 15:55:10'
+    created_at: '2011-01-14 15:55:00'
+    updated_at: '2011-08-15 12:39:22'
     deleted_at: null
   Comite_10:
     nombre: comite9
@@ -10460,8 +12253,8 @@ Comite:
     Consejocomunal: Consejocomunal_1
     latitud: ''
     longitud: ''
-    created_at: '2011-08-10 15:55:10'
-    updated_at: '2011-08-10 15:55:10'
+    created_at: '2011-02-10 15:55:00'
+    updated_at: '2011-08-15 12:42:40'
     deleted_at: null
   Comite_11:
     nombre: comite10
@@ -10486,8 +12279,8 @@ Comite:
     Consejocomunal: Consejocomunal_1
     latitud: ''
     longitud: ''
-    created_at: '2011-08-10 15:55:10'
-    updated_at: '2011-08-10 15:55:10'
+    created_at: '2011-03-10 15:55:00'
+    updated_at: '2011-08-15 12:39:45'
     deleted_at: null
   Comite_13:
     nombre: comite12
@@ -10499,8 +12292,8 @@ Comite:
     Consejocomunal: Consejocomunal_1
     latitud: ''
     longitud: ''
-    created_at: '2011-08-10 15:55:10'
-    updated_at: '2011-08-10 15:55:10'
+    created_at: '2011-04-10 15:55:00'
+    updated_at: '2011-08-15 12:40:03'
     deleted_at: null
   Comite_14:
     nombre: comite13
@@ -10512,8 +12305,8 @@ Comite:
     Consejocomunal: Consejocomunal_1
     latitud: ''
     longitud: ''
-    created_at: '2011-08-10 15:55:10'
-    updated_at: '2011-08-10 15:55:10'
+    created_at: '2011-07-10 15:55:00'
+    updated_at: '2011-08-15 12:40:41'
     deleted_at: null
   Comite_15:
     nombre: comite14
@@ -10538,8 +12331,8 @@ Comite:
     Consejocomunal: Consejocomunal_1
     latitud: ''
     longitud: ''
-    created_at: '2011-08-10 15:55:10'
-    updated_at: '2011-08-10 15:55:10'
+    created_at: '2011-09-10 15:55:00'
+    updated_at: '2011-08-15 12:40:52'
     deleted_at: null
   Comite_17:
     nombre: comite16
@@ -10551,8 +12344,8 @@ Comite:
     Consejocomunal: Consejocomunal_1
     latitud: ''
     longitud: ''
-    created_at: '2011-08-10 15:55:10'
-    updated_at: '2011-08-10 15:55:10'
+    created_at: '2011-11-10 15:55:00'
+    updated_at: '2011-08-15 12:41:14'
     deleted_at: null
   Comite_18:
     nombre: comite17
@@ -10564,8 +12357,8 @@ Comite:
     Consejocomunal: Consejocomunal_1
     latitud: ''
     longitud: ''
-    created_at: '2011-08-10 15:55:10'
-    updated_at: '2011-08-10 15:55:10'
+    created_at: '2011-12-10 15:55:00'
+    updated_at: '2011-08-15 12:41:23'
     deleted_at: null
   Comite_19:
     nombre: comite18
@@ -10577,8 +12370,8 @@ Comite:
     Consejocomunal: Consejocomunal_1
     latitud: ''
     longitud: ''
-    created_at: '2011-08-10 15:55:10'
-    updated_at: '2011-08-10 15:55:10'
+    created_at: '2011-01-10 15:55:00'
+    updated_at: '2011-08-15 12:41:34'
     deleted_at: null
   Comite_20:
     nombre: comite19
@@ -10590,8 +12383,8 @@ Comite:
     Consejocomunal: Consejocomunal_1
     latitud: ''
     longitud: ''
-    created_at: '2011-08-10 15:55:10'
-    updated_at: '2011-08-10 15:55:10'
+    created_at: '2011-03-10 15:55:00'
+    updated_at: '2011-08-15 12:42:00'
     deleted_at: null
   Comite_21:
     nombre: comite20
@@ -10603,8 +12396,8 @@ Comite:
     Consejocomunal: Consejocomunal_1
     latitud: ''
     longitud: ''
-    created_at: '2011-08-10 15:55:10'
-    updated_at: '2011-08-10 15:55:10'
+    created_at: '2011-04-10 15:55:00'
+    updated_at: '2011-08-15 12:42:13'
     deleted_at: null
   Comite_22:
     nombre: comite21
@@ -10616,8 +12409,8 @@ Comite:
     Consejocomunal: Consejocomunal_1
     latitud: ''
     longitud: ''
-    created_at: '2011-08-10 15:55:10'
-    updated_at: '2011-08-10 15:55:10'
+    created_at: '2011-05-10 15:55:00'
+    updated_at: '2011-08-15 12:42:58'
     deleted_at: null
   Comite_23:
     nombre: comite22
@@ -10629,8 +12422,8 @@ Comite:
     Consejocomunal: Consejocomunal_1
     latitud: ''
     longitud: ''
-    created_at: '2011-08-10 15:55:10'
-    updated_at: '2011-08-10 15:55:10'
+    created_at: '2011-07-10 15:55:00'
+    updated_at: '2011-08-15 12:43:21'
     deleted_at: null
   Comite_24:
     nombre: comite23
@@ -10642,8 +12435,8 @@ Comite:
     Consejocomunal: Consejocomunal_1
     latitud: ''
     longitud: ''
-    created_at: '2011-08-10 15:55:10'
-    updated_at: '2011-08-10 15:55:10'
+    created_at: '2011-10-10 15:55:00'
+    updated_at: '2011-08-15 12:43:48'
     deleted_at: null
   Comite_25:
     nombre: comite24
@@ -10655,8 +12448,8 @@ Comite:
     Consejocomunal: Consejocomunal_1
     latitud: ''
     longitud: ''
-    created_at: '2011-08-10 15:55:10'
-    updated_at: '2011-08-10 15:55:10'
+    created_at: '2011-11-10 15:55:00'
+    updated_at: '2011-08-15 12:43:59'
     deleted_at: null
   Comite_26:
     nombre: comite25
@@ -10759,8 +12552,8 @@ Comite:
     Consejocomunal: Consejocomunal_1
     latitud: ''
     longitud: ''
-    created_at: '2011-08-10 15:55:10'
-    updated_at: '2011-08-10 15:55:10'
+    created_at: '2010-08-10 15:55:00'
+    updated_at: '2011-08-15 18:50:48'
     deleted_at: null
   Comite_34:
     nombre: comite33
@@ -11073,4 +12866,17 @@ Comite:
     longitud: ''
     created_at: '2011-08-10 15:55:10'
     updated_at: '2011-08-10 15:55:10'
+    deleted_at: null
+  Comite_58:
+    nombre: comite200
+    Estado: Estado_6
+    Municipio: Municipio_55
+    Parroquia: Parroquia_180
+    sector: nada
+    registrado: false
+    Consejocomunal: Consejocomunal_1
+    latitud: ''
+    longitud: ''
+    created_at: '2011-08-11 18:17:04'
+    updated_at: '2011-08-11 18:17:04'
     deleted_at: null

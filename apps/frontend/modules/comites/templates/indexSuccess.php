@@ -14,6 +14,7 @@
       <th>Sector</th>
       <th>Registrado</th>
       <th>Consejo</th>
+      <th>Acta</th>
       <th>Creado</th>
     </tr>
   </thead>
@@ -34,6 +35,11 @@
     <?php endif; ?>
       <td><?php echo $registrocom ?></td>
       <td><?php echo $comite->getConsejocomunal() ?></td>
+    <?php if($comite->getActa() != ""): ?>
+      <td>Acta-<?php echo $comite->getNombre() ?></td>
+    <?php else: ?>
+      <td><?php echo $comite->getActa() ?></td>
+    <?php endif; ?>
       <td><?php echo $comite->getCreatedAt() ?></td>
     </tr>
     <?php endforeach; ?>

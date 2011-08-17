@@ -15,6 +15,14 @@ class ComiteForm extends BaseComiteForm
    */
   public function configure()
   {
+
+   $today = array(
+   'year' => date('Y'),
+   'month' => date('n'),
+   'day' => date('j')
+   );
+   $years = range(date('Y') + 8, date('Y') - 8);
+   $this->widgetSchema['created_at'] = new sfWidgetFormDate(array('format' => '%day%/%month%/%year%', 'default' => $today, 'years' => array_combine($years, $years)));
     unset($this['updated_at'], $this['deleted_at']);
     parent::configure();
     sfContext::getInstance()->getConfiguration()->loadHelpers('Url');
@@ -52,6 +60,21 @@ class ComiteForm extends BaseComiteForm
                         'query' => Doctrine::getTable('consejocomunal')->createQuery('c')->where('c.parroquia_id = ?', $idPar)->orWhere('c.id = 1')
                     )));
         }
+
+        $actaFileSrc = '/uploads/actas/'.$this->getObject()->getActa();
+        $this->widgetSchema['acta'] = new sfWidgetFormInputFileEditable(array('file_src' => $actaFileSrc,
+        'is_image' => false,
+        'edit_mode' => !$this->isNew(),
+        'label' => 'Acta de constitución',
+        'delete_label' => '¿Eliminar Acta?'));
+
+        $this->validatorSchema['acta'] = new sfValidatorFile(array(
+        'mime_types' => array('application/msword', 'application/vnd.oasis.opendocument.text'),
+        'path' => sfConfig::get('sf_upload_dir').'/actas/',
+        'required' => false), array('mime_types' => 'Tipo de archivo inválido(Archivos Permitidos .doc, .odt)'));
+        $this->validatorSchema['acta_delete'] = new sfValidatorBoolean();
+
+        $this->widgetSchema['mimetype'] = new sfWidgetFormInputHidden();
   }
 }
 

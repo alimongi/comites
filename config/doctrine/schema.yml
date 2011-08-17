@@ -186,6 +186,14 @@ Comite:
       notnull: false
       notblank: false
       default: 0
+    acta:
+      type: string(254)
+      notnull: false
+      notblank: false
+    mimetype:
+      type: string(120)
+      notnull: false
+      notblank: false
     latitud:
       type: long
       notnull: false

@@ -12,9 +12,7 @@ class metasActions extends sfActions
 {
   public function executeIndex(sfWebRequest $request)
   {
-    $this->metas = Doctrine::getTable('Meta')
-      ->createQuery('a')
-      ->execute();
+    $this->metas = Doctrine::getTable('Meta')->getMetas();
   }
 
   public function executeShow(sfWebRequest $request)

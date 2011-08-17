@@ -26,6 +26,21 @@ class comitesActions extends sfActions
       $this->comites = Doctrine::getTable('Estado')->getTotalesxEstadoC();
   }
 
+  public function executeDownloadActa(sfWebRequest $request)
+  {
+    $mimeTypes = array('doc' => 'application/msword', 'odt' => 'application/vnd.oasis.opendocument.text');
+    $this->comite = Doctrine::getTable('Comite')->find(array($request->getParameter('id')));
+    $this->forward404Unless($this->comite);
+    $_datos = explode('.', $this->comite->getActa());
+    $this->pathdocumento =  sfConfig::get('sf_upload_dir').'/actas/'.$this->comite->getActa();
+    header("Content-Type: ".$mimeTypes[$_datos[1]]);
+    header ("Content-Disposition: attachment; filename=Acta-".$this->comite->getNombre().'.'.$_datos[1]);
+    header("Content-Length: ".filesize($this->pathdocumento));
+    header("Cache-Control: no-cache, must-revalidate");
+    header("Pragma: no-cache");
+    readfile($this->pathdocumento);
+  }
+
    public function executeBuscarxFecha(sfWebRequest $request)
   {
        $this->form = new SearchForm();
@@ -88,6 +103,7 @@ class comitesActions extends sfActions
   {
     $this->forward404Unless($request->isMethod(sfRequest::POST) || $request->isMethod(sfRequest::PUT));
     $this->forward404Unless($comite = Doctrine::getTable('Comite')->find(array($request->getParameter('id'))), sprintf('Object comite does not exist (%s).', $request->getParameter('id')));
+    
     $this->form = new ComiteForm($comite);
 
     $this->processForm($request, $this->form);

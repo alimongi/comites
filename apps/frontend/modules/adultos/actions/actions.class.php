@@ -21,6 +21,34 @@ class adultosActions extends sfActions
     $this->menu = Doctrine::getTable('Adulto')->getDisplay(array(), true);
   }
 
+  public function executeBuscarxFecha(sfWebRequest $request)
+  {
+    $this->form = new SearchForm();
+  }
+
+  public function executeMostrarF(sfWebRequest $request)
+    {
+
+      if ($request->getMethod() == 'POST' ) {
+          $this->form = new SearchForm();
+            $this->adultos = Doctrine_Query::create()
+            ->select()->from('adulto a')
+            ->addSelect('e.nombre as nombre')
+            ->addSelect('a.estado_id')
+            ->addSelect('count(a.id) as total')
+            ->leftJoin('a.Estado e')
+            ->where('a.created_at >= ?', $request->getParameter('fecha_inicial'))
+            ->andWhere('a.created_at <= ?', $request->getParameter('fecha_final'))
+            ->andWhere('a.deleted_at IS NULL')
+            ->andWhere('a.fallecido = "No"')
+            ->groupBy('a.estado_id')
+            ->fetchArray();
+       $this->fecha_inicial = $request->getParameter('fecha_inicial', '');
+       $this->fecha_final = $request->getParameter('fecha_final', '');
+            }
+        $this->setTemplate('BuscarxFecha');
+    }
+
   public function executeAdultoIndex(sfWebRequest $request)
   {
       $this->adultos = Doctrine::getTable('Estado')->getTotalesxEstadoA();
