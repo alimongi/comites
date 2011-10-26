@@ -13,9 +13,9 @@
  * @method UserEstado setUserId()    Sets the current record's "user_id" value
  * @method UserEstado setEstadoId()  Sets the current record's "estado_id" value
  * 
- * @package    inasscomite
+ * @package    inasscentros
  * @subpackage model
- * @author     Your name here
+ * @author     Alexis Limongi
  * @version    SVN: $Id: Builder.php 7490 2010-03-29 19:53:27Z jwage $
  */
 abstract class BaseUserEstado extends sfDoctrineRecord

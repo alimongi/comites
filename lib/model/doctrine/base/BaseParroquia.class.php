@@ -28,9 +28,9 @@
  * @method Parroquia           setComite()         Sets the current record's "Comite" collection
  * @method Parroquia           setAdulto()         Sets the current record's "Adulto" collection
  * 
- * @package    inasscomite
+ * @package    inasscentros
  * @subpackage model
- * @author     Your name here
+ * @author     Alexis Limongi
  * @version    SVN: $Id: Builder.php 7490 2010-03-29 19:53:27Z jwage $
  */
 abstract class BaseParroquia extends sfDoctrineRecord

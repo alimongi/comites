@@ -19,9 +19,9 @@
  * @method sfGuardRememberKey setIpAddress()    Sets the current record's "ip_address" value
  * @method sfGuardRememberKey setUser()         Sets the current record's "User" value
  * 
- * @package    inasscomite
+ * @package    inasscentros
  * @subpackage model
- * @author     Your name here
+ * @author     Alexis Limongi
  * @version    SVN: $Id: Builder.php 7490 2010-03-29 19:53:27Z jwage $
  */
 abstract class BasesfGuardRememberKey extends sfDoctrineRecord

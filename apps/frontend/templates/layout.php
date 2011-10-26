@@ -52,6 +52,7 @@
                      <ul>
                     <li><a href="<?php echo url_for('comites/new')?>">Agregar</a></li>
                     <li><a href="<?php echo url_for('comites/index')?>">Ver</a></li>
+                    <li><a href="<?php echo url_for('comites/index2')?>">Ver por Adult@s</a></li>
                     <li><a href="<?php echo url_for('comites/ComiteIndex')?>">Estadística Comité Por Estados</a></li>
                     <li><a href="<?php echo url_for('comites/BuscarxFecha')?>">Estadística Comité Por Fechas</a></li>
                     </ul>

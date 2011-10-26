@@ -3,9 +3,9 @@
 /**
  * Meta filter form base class.
  *
- * @package    inasscomite
+ * @package    inasscentros
  * @subpackage filter
- * @author     Your name here
+ * @author     Alexis Limongi
  * @version    SVN: $Id: sfDoctrineFormFilterGeneratedTemplate.php 29570 2010-05-21 14:49:47Z Kris.Wallsmith $
  */
 abstract class BaseMetaFormFilter extends BaseFormFilterDoctrine

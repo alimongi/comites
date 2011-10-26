@@ -20,7 +20,24 @@ class comitesActions extends sfActions
     $this->paginas = Doctrine::getTable('Comite')->getTotalPages();
     $this->menu = Doctrine::getTable('Comite')->getDisplay(array(), true);
   }
-  
+
+    public function executeIndex2(sfWebRequest $request)
+  {
+    $ids = $this->getUser()->getIdsEstados($this->getUser()->getGuardUser()->getEstados());
+    $page = $request->getParameter('pagina', 1);
+    $this->comites = Doctrine::getTable('Comite')->getListPager2($ids, $page);
+    $this->haveToPaginate = Doctrine::getTable('Comite')->haveToPaginate();
+    $this->resultados = Doctrine::getTable('Comite')->getTotalResult();
+    $this->paginas = Doctrine::getTable('Comite')->getTotalPages();
+    $this->menu = Doctrine::getTable('Comite')->getDisplay(array(), true);
+    $this->_estados = array(1 => 'Distrito Capital', 2 => 'Amazonas', 3 => 'Anzoategui', 4 => 'Apure', 5 => 'Aragua', 6 => 'Barinas', 7 => 'Bolivar', 8 => 'Carabobo', 9 => 'Cojedes', 10 => 'Delta Amacuro', 11 => 'Falcon', 12 => 'Guarico', 13 => 'Lara', 14 => 'Mérida', 15 => 'Miranda', 16 => 'Monagas', 17 => 'Nueva Esparta', 18 => 'Portuguesa', 19 => 'Sucre', 20 => 'Tachira', 21 => 'Trujillo', 22 => 'Yaracuy', 23 => 'Zulia', 24 => 'Vargas');
+  }
+
+  public function executeAdultoxComite(sfWebRequest $request)
+  {
+      $this->adultos = Doctrine::getTable('Adulto')->getAdultoxComite($request->getParameter('id'));
+  }
+
   public function executeComiteIndex(sfWebRequest $request)
   {
       $this->comites = Doctrine::getTable('Estado')->getTotalesxEstadoC();
@@ -67,7 +84,6 @@ class comitesActions extends sfActions
             }
         $this->setTemplate('BuscarxFecha');
     }
-
 
   public function executeShow(sfWebRequest $request)
   {

@@ -17,6 +17,7 @@
       <th>Parroquia</th>
       <th>Comite</th>
       <th>Vocero</th>
+      <th>Voceria</th>
     </tr>
   </thead>
 
@@ -34,6 +35,7 @@
       <td><?php echo $adulto->getParroquia() ?></td>
       <td><?php echo $adulto->getComite() ?></td>
       <td><?php echo $adulto->getVocero() ?></td>
+      <td><?php echo $adulto->getTipovoceria() ?></td>
     </tr>
     <?php endforeach; ?>
   </tbody>

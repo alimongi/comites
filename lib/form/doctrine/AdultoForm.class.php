@@ -60,5 +60,19 @@ class AdultoForm extends BaseAdultoForm
                         'query' => Doctrine::getTable('comite')->createQuery('c')->where('c.parroquia_id = ?', $idPar)
                     )));
         }
+
+    $fotoFileSrc = '/uploads/fotos/'.$this->getObject()->getFoto();
+    $this->widgetSchema['foto'] = new sfWidgetFormInputFileEditable(array('file_src' => $fotoFileSrc,
+    'is_image' => true,
+    'edit_mode' => !$this->isNew(),
+    'label' => 'Foto',
+    'delete_label' => '¿Eliminar Foto?'));
+
+    $this->validatorSchema['foto'] = new sfValidatorFile(array(
+    'mime_types' => 'web_images',
+    'path' => sfConfig::get('sf_upload_dir').'/fotos/',
+    'required' => false), array('mime_types' => 'Tipo de archivo inválido(Archivos Permitidos .png, .jpg)'));
+    $this->validatorSchema['foto_delete'] = new sfValidatorBoolean();
+
   }
 }

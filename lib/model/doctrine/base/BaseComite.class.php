@@ -14,6 +14,12 @@
  * @property boolean $registrado
  * @property integer $consejo_id
  * @property string $acta
+ * @property boolean $tih
+ * @property string $nombretih
+ * @property boolean $comuna
+ * @property string $nombrecomuna
+ * @property boolean $urbanismo
+ * @property string $nombreurbanismo
  * @property string $mimetype
  * @property long $latitud
  * @property long $longitud
@@ -23,44 +29,56 @@
  * @property Consejocomunal $Consejocomunal
  * @property Doctrine_Collection $Adulto
  * 
- * @method integer             getId()             Returns the current record's "id" value
- * @method string              getNombre()         Returns the current record's "nombre" value
- * @method integer             getEstadoId()       Returns the current record's "estado_id" value
- * @method integer             getMunicipioId()    Returns the current record's "municipio_id" value
- * @method integer             getParroquiaId()    Returns the current record's "parroquia_id" value
- * @method string              getSector()         Returns the current record's "sector" value
- * @method boolean             getRegistrado()     Returns the current record's "registrado" value
- * @method integer             getConsejoId()      Returns the current record's "consejo_id" value
- * @method string              getActa()           Returns the current record's "acta" value
- * @method string              getMimetype()       Returns the current record's "mimetype" value
- * @method long                getLatitud()        Returns the current record's "latitud" value
- * @method long                getLongitud()       Returns the current record's "longitud" value
- * @method Estado              getEstado()         Returns the current record's "Estado" value
- * @method Municipio           getMunicipio()      Returns the current record's "Municipio" value
- * @method Parroquia           getParroquia()      Returns the current record's "Parroquia" value
- * @method Consejocomunal      getConsejocomunal() Returns the current record's "Consejocomunal" value
- * @method Doctrine_Collection getAdulto()         Returns the current record's "Adulto" collection
- * @method Comite              setId()             Sets the current record's "id" value
- * @method Comite              setNombre()         Sets the current record's "nombre" value
- * @method Comite              setEstadoId()       Sets the current record's "estado_id" value
- * @method Comite              setMunicipioId()    Sets the current record's "municipio_id" value
- * @method Comite              setParroquiaId()    Sets the current record's "parroquia_id" value
- * @method Comite              setSector()         Sets the current record's "sector" value
- * @method Comite              setRegistrado()     Sets the current record's "registrado" value
- * @method Comite              setConsejoId()      Sets the current record's "consejo_id" value
- * @method Comite              setActa()           Sets the current record's "acta" value
- * @method Comite              setMimetype()       Sets the current record's "mimetype" value
- * @method Comite              setLatitud()        Sets the current record's "latitud" value
- * @method Comite              setLongitud()       Sets the current record's "longitud" value
- * @method Comite              setEstado()         Sets the current record's "Estado" value
- * @method Comite              setMunicipio()      Sets the current record's "Municipio" value
- * @method Comite              setParroquia()      Sets the current record's "Parroquia" value
- * @method Comite              setConsejocomunal() Sets the current record's "Consejocomunal" value
- * @method Comite              setAdulto()         Sets the current record's "Adulto" collection
+ * @method integer             getId()              Returns the current record's "id" value
+ * @method string              getNombre()          Returns the current record's "nombre" value
+ * @method integer             getEstadoId()        Returns the current record's "estado_id" value
+ * @method integer             getMunicipioId()     Returns the current record's "municipio_id" value
+ * @method integer             getParroquiaId()     Returns the current record's "parroquia_id" value
+ * @method string              getSector()          Returns the current record's "sector" value
+ * @method boolean             getRegistrado()      Returns the current record's "registrado" value
+ * @method integer             getConsejoId()       Returns the current record's "consejo_id" value
+ * @method string              getActa()            Returns the current record's "acta" value
+ * @method boolean             getTih()             Returns the current record's "tih" value
+ * @method string              getNombretih()       Returns the current record's "nombretih" value
+ * @method boolean             getComuna()          Returns the current record's "comuna" value
+ * @method string              getNombrecomuna()    Returns the current record's "nombrecomuna" value
+ * @method boolean             getUrbanismo()       Returns the current record's "urbanismo" value
+ * @method string              getNombreurbanismo() Returns the current record's "nombreurbanismo" value
+ * @method string              getMimetype()        Returns the current record's "mimetype" value
+ * @method long                getLatitud()         Returns the current record's "latitud" value
+ * @method long                getLongitud()        Returns the current record's "longitud" value
+ * @method Estado              getEstado()          Returns the current record's "Estado" value
+ * @method Municipio           getMunicipio()       Returns the current record's "Municipio" value
+ * @method Parroquia           getParroquia()       Returns the current record's "Parroquia" value
+ * @method Consejocomunal      getConsejocomunal()  Returns the current record's "Consejocomunal" value
+ * @method Doctrine_Collection getAdulto()          Returns the current record's "Adulto" collection
+ * @method Comite              setId()              Sets the current record's "id" value
+ * @method Comite              setNombre()          Sets the current record's "nombre" value
+ * @method Comite              setEstadoId()        Sets the current record's "estado_id" value
+ * @method Comite              setMunicipioId()     Sets the current record's "municipio_id" value
+ * @method Comite              setParroquiaId()     Sets the current record's "parroquia_id" value
+ * @method Comite              setSector()          Sets the current record's "sector" value
+ * @method Comite              setRegistrado()      Sets the current record's "registrado" value
+ * @method Comite              setConsejoId()       Sets the current record's "consejo_id" value
+ * @method Comite              setActa()            Sets the current record's "acta" value
+ * @method Comite              setTih()             Sets the current record's "tih" value
+ * @method Comite              setNombretih()       Sets the current record's "nombretih" value
+ * @method Comite              setComuna()          Sets the current record's "comuna" value
+ * @method Comite              setNombrecomuna()    Sets the current record's "nombrecomuna" value
+ * @method Comite              setUrbanismo()       Sets the current record's "urbanismo" value
+ * @method Comite              setNombreurbanismo() Sets the current record's "nombreurbanismo" value
+ * @method Comite              setMimetype()        Sets the current record's "mimetype" value
+ * @method Comite              setLatitud()         Sets the current record's "latitud" value
+ * @method Comite              setLongitud()        Sets the current record's "longitud" value
+ * @method Comite              setEstado()          Sets the current record's "Estado" value
+ * @method Comite              setMunicipio()       Sets the current record's "Municipio" value
+ * @method Comite              setParroquia()       Sets the current record's "Parroquia" value
+ * @method Comite              setConsejocomunal()  Sets the current record's "Consejocomunal" value
+ * @method Comite              setAdulto()          Sets the current record's "Adulto" collection
  * 
- * @package    inasscomite
+ * @package    inasscentros
  * @subpackage model
- * @author     Your name here
+ * @author     Alexis Limongi
  * @version    SVN: $Id: Builder.php 7490 2010-03-29 19:53:27Z jwage $
  */
 abstract class BaseComite extends sfDoctrineRecord
@@ -119,6 +137,36 @@ abstract class BaseComite extends sfDoctrineRecord
              'notnull' => false,
              'notblank' => false,
              'length' => 254,
+             ));
+        $this->hasColumn('tih', 'boolean', null, array(
+             'type' => 'boolean',
+             'default' => false,
+             ));
+        $this->hasColumn('nombretih', 'string', 120, array(
+             'type' => 'string',
+             'notnull' => false,
+             'notblank' => false,
+             'length' => 120,
+             ));
+        $this->hasColumn('comuna', 'boolean', null, array(
+             'type' => 'boolean',
+             'default' => false,
+             ));
+        $this->hasColumn('nombrecomuna', 'string', 120, array(
+             'type' => 'string',
+             'notnull' => false,
+             'notblank' => false,
+             'length' => 120,
+             ));
+        $this->hasColumn('urbanismo', 'boolean', null, array(
+             'type' => 'boolean',
+             'default' => false,
+             ));
+        $this->hasColumn('nombreurbanismo', 'string', 120, array(
+             'type' => 'string',
+             'notnull' => false,
+             'notblank' => false,
+             'length' => 120,
              ));
         $this->hasColumn('mimetype', 'string', 120, array(
              'type' => 'string',

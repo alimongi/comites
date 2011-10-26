@@ -19,9 +19,9 @@
  * @method Meta    setCantidad()  Sets the current record's "cantidad" value
  * @method Meta    setEstado()    Sets the current record's "Estado" value
  * 
- * @package    inasscomite
+ * @package    inasscentros
  * @subpackage model
- * @author     Your name here
+ * @author     Alexis Limongi
  * @version    SVN: $Id: Builder.php 7490 2010-03-29 19:53:27Z jwage $
  */
 abstract class BaseMeta extends sfDoctrineRecord

@@ -29,7 +29,6 @@ class ConsejocomunalTable extends Doctrine_Table
                 ->innerJoin('c.Municipio m')
                 ->innerJoin('c.Parroquia p')
                 ->whereIn('c.estado_id', $ids)
-                ->andWhere('c.activo = 1')
                 ->andWhere('c.deleted_at IS NULL');
         $this->pagerLayout = new sfDoctrinePagerLayout(
                 new Doctrine_Pager($strSQL, $page, $limit),

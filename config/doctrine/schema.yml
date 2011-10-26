@@ -91,6 +91,11 @@ Parroquia:
       local: municipio_id
       foreign: id
 
+Ocupacion:
+  actAs: Timestampable
+  columns:
+    nombre: { type: string(120), notnull: true, notblank: true, minlength: 4 }
+
 Consejocomunal:
   actAs:
     Timestampable: ~
@@ -190,6 +195,27 @@ Comite:
       type: string(254)
       notnull: false
       notblank: false
+    tih:
+      type: boolean
+      default: false
+    nombretih:
+      type: string(120)
+      notnull: false
+      notblank: false
+    comuna:
+      type: boolean
+      default: false
+    nombrecomuna:
+      type: string(120)
+      notnull: false
+      notblank: false
+    urbanismo:
+      type: boolean
+      default: false
+    nombreurbanismo:
+      type: string(120)
+      notnull: false
+      notblank: false
     mimetype:
       type: string(120)
       notnull: false
@@ -253,6 +279,39 @@ Adulto:
       values: [Solter@, Casad@, Viud@, Divorciad@, Separad@, Conviviente]
       notnull: true
       notblank: true
+    hijos:
+      type: enum
+      values: [No, Si]
+      notnull: false
+      notblank: false
+    nhijos:
+      type: enum
+      values: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18 ,19, 20]
+      notnull: false
+      notblank: false
+    nivelestudio:
+      type: enum 
+      values: [Ninguno, Primaria, Bachiller, Tecnico Medio, TSU, Universitario, Post-Grado, Maestria, Doctorado]
+      notnull: false
+      notblank: false
+    ocupacion_id:
+      type: integer
+      notnull: false
+      notblank: false
+    asignacion:
+      type: enum
+      values: [No, Si]
+      notnull: false
+      notblank: false
+    organismo:
+      type: string(224)
+      notnull: false
+      notblank: false
+      minlength: 4
+    foto:
+      type: string(254)
+      notnull: false
+      notblank: false 
     estado_id:
       type: integer (4)
       notnull: true
@@ -305,6 +364,30 @@ Adulto:
       values: [No, Si]
       notnull: true
       notblank: true
+    tipovoceria:
+      type: enum
+      values: [Ninguna, Politico-Social, Productiva, Comunicacional, Salud, Educativa]
+      notnull: false
+      notblank: false
+    psuv:
+      type: enum
+      values: [No, Si]
+      notnull: false
+      notblank: false
+    rev:
+      type: enum
+      values: [No, Si]
+      notnull: false
+      notblank: false
+    polop:
+      type: enum
+      values: [No, Si]
+      notnull: false
+      notblank: false
+    habilidades:
+      type: text(300)
+      notnull: false
+      notblank: false
   relations:
     Estado:
       local: estado_id
@@ -317,6 +400,9 @@ Adulto:
       foreign: id
     Comite:
       local: comite_id
+      foreign: id
+    Ocupacion: 
+      local: ocupacion_id 
       foreign: id
 
 Meta:

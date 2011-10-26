@@ -8,7 +8,7 @@
 <?php endif; ?>
   <table>
         <tbody>
-      <?php echo $form ?>
+        <?php echo $form ?>
     </tbody>
   </table>
 <tfoot>
